@@ -1,0 +1,14 @@
+
+.gridbox-profilepic {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 8rem;
+
+}
+
+img.gridbox-profilepic-img {
+    width: 90%;
+}

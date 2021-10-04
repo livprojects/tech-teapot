@@ -1,0 +1,30 @@
+.gridbox-nav {
+    font-weight: bold;
+    color: #A0E4FF;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+}
+
+
+
+.thumbnail {
+    padding: 2rem;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+
+}
+
+.active {
+    background-color: #292B40;
+}
+
+.inactive {
+    background-color: #7E77AA;
+}
+.gridbox-nav-ul {
+    display: flex;
+    justify-content: space-around;
+
+}
+
