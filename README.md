@@ -2,6 +2,5 @@
 
 ### Tech stack
 - HTML5
-- CSS3 / SASS
+- CSS3
 - React
-- Gatsby
