@@ -4,6 +4,8 @@ import './styles/reset.css';
 import './styles/style.css';
 import Home from './components/home/home';
 import reportWebVitals from './reportWebVitals';
+import './i18n';
+
 
 ReactDOM.render(
   <React.StrictMode>

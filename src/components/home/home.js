@@ -5,17 +5,29 @@ import ProfilePic from '../tools/profile-picture/profilepicture';
 import Laboratory from './laboratory/laboratory';
 import Navigation from '../tools/navigation/navigation';
 import Shortcuts from '../tools/shortcuts/shortcuts';
+import { withNamespaces } from 'react-i18next';
+import i18n from '../../i18n';
 
 
 
-const Home = () => {
+const Home = ({t}) => {
+
+
+  const changeLanguage = (lng) => {
+    i18n.changeLanguage(lng);
+  }
 
   return (
 <>
-    <main>   
-      <h1>Hi people</h1>
+    <main>  
+    <div>
+      <button onClick={() => changeLanguage('fr')}>fr</button>
+      <button onClick={() => changeLanguage('en')}>en</button>
+      <h1>{t('Welcome')}</h1>
+    </div>
+
       <div className="gridbox">
-          <ProfilePic></ProfilePic>
+        <ProfilePic></ProfilePic>
         <Navigation></Navigation>
         <Shortcuts></Shortcuts>
         <Laboratory></Laboratory>
@@ -26,4 +38,4 @@ const Home = () => {
     </>
   )
 }
-export default Home;
+export default withNamespaces()(Home);
