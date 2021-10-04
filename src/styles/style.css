@@ -1,0 +1,73 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    width: 100vw;
+}
+
+main {
+    width: 100%;
+}
+.gridbox {
+    display: grid;
+    grid-template-columns: [first-column] 20% [second-column] auto [third-column] auto;
+    grid-template-rows: [first-row] 30% [second-row] auto;
+
+    width: 80%;
+    height: 80%;
+    margin: 5rem auto;
+    background-color: rgb(170, 170, 255);
+
+ 
+}
+
+.gridbox-profilepic {
+
+    grid-column-start: first-column;
+    grid-column-end: first-column;
+    grid-row-start: first-row;
+    grid-row-end: first-row;
+    background-color: grey;
+
+}
+
+.gridbox-nav {
+
+    background-color: rgb(135, 104, 135);
+
+    grid-column-start: second-column;
+    grid-column-end: third-column;
+    grid-row-start: first-row;
+    grid-row-end: first-row;
+
+  
+}
+
+.gridbox-lab {
+
+    background-color: pink;
+    grid-column-start: second-column;
+    grid-column-end: third-column;
+    grid-row-start: second-row;
+    grid-row-end: second-row;
+
+}
+
+.gridbox-shortcuts-nav {
+
+    background-color: rgb(118, 164, 118);
+
+    grid-column-start: first-column;
+    grid-column-end: first-column;
+    grid-row-start: second-row;
+    grid-row-end: second-row;
+
+}
+
+.gridbox-nav-ul {
+    display: flex;
+}
+
+img.gridbox-profilepic-img {
+    width: 100%;
+    object-fit: contain;
+}
+
