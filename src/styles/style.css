@@ -48,6 +48,14 @@ main {
 
 }
 
+.gridbox-archives {
+
+    grid-column-start: second-column;
+    grid-column-end: third-column;
+    grid-row-start: second-row;
+    grid-row-end: second-row;
+
+}
 .gridbox-shortcuts-nav {
 
     background-color: rgb(118, 164, 118);

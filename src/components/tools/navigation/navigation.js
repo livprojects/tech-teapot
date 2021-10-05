@@ -1,18 +1,18 @@
 import * as React from 'react';
 import './navigation.css';
 
-const Navigation = ({t}) => {
+const Navigation = ({t, isLabActive, isArchivesActive, changeActiveElement}) => {
 
     const upLab = t('Laboratory').toUpperCase();
     const upArchive = t('Archives').toUpperCase();
 
-    let isActive = true;
-    let isActiveTest = false;
+    
+
     return (
         <nav className='gridbox-nav'>
             <div className='gridbox-nav-ul'>
-                <div className={`thumbnail ${isActive ? "active" : "inactive"}`}>{upLab}</div>
-                <div className={`thumbnail ${isActiveTest ? "active" : "inactive"}`}>{upArchive}</div>
+                <div onClick={changeActiveElement} className={`thumbnail ${isLabActive ? "active" : "inactive"}`}>{upLab}</div>
+                <div onClick={changeActiveElement} className={`thumbnail ${isArchivesActive ? "active" : "inactive"}`}>{upArchive}</div>
             </div>
         </nav>
     )
