@@ -1,0 +1,27 @@
+{
+    "projects":
+    [
+        {
+
+    "title": "Fanfiction generator",
+    "fr-description": "Vous rêvez de retrouver votre adolescence ?",
+    "en-description": "Dreaming of being an angsty teenager once again?",
+    "tech-stack": ["HTML5", "CSS3", "Javascript"],
+    "github-link": "https://github.com/livprojects/fanfiction-generator",
+    "deployed-link": "http://lachetescomz.surge.sh/"
+        }
+    ,
+        {
+
+        "title": "Draw your tiles",
+        "fr-description": "Jeu de dessin",
+        "en-description": "Drawing game",
+        "tech-stack": ["HTML5", "CSS3", "Javascript"],
+        "github-link": "https://github.com/livprojects/draw-your-tiles",
+        "deployed-link": "http://drawyourtiles.surge.sh/"
+        }
+    ]
+    
+
+
+}

@@ -9,9 +9,9 @@
 
 
 .thumbnail {
-    padding: 2rem;
-    border-top-left-radius: 30px;
-    border-top-right-radius: 30px;
+    padding: 0.8rem 1.5rem;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 25px;
 
 }
 
