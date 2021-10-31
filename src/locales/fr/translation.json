@@ -1,7 +1,14 @@
 {
-  "Hi": "Bonjour", 
-  "Welcome-text": "Je m'appelle Liv. Bienvenue dans mon laboratoire où se confondent le temps et l'espace. J'ai été journaliste, j'ai appris quelques langues et désormais je passe le plus clair de mon temps à coder. Vous trouverez mes artices aux archives et mes projets de développement web en descendant un peu le long de cette page. Si vous êtes pressé.e, vous pouvez prendre un raccourci sur la gauche et filer voir mon CV. Vous pouvez laisser un message. Bonne visite.",
-  "Laboratory": "Laboratoire",
-  "Archives": "Archives", 
-  "Archives-text": "Bienvenue aux archives"
+  "home": {
+    "hi": "Bonjour", 
+    "welcome-text": "Je m'appelle Liv. Bienvenue dans mon laboratoire où se confondent le temps et l'espace. J'ai été journaliste, j'ai appris quelques langues et désormais je passe le plus clair de mon temps à coder. Vous trouverez mes artices aux archives et mes projets de développement web en descendant un peu le long de cette page. Si vous êtes pressé.e, vous pouvez prendre un raccourci sur la gauche et filer voir mon CV. Vous pouvez laisser un message. Bonne visite.",
+    "laboratory-title": "Laboratoire",
+    "archives-title": "Archives"
+  }, 
+  "archives": {
+    "welcome": "Bienvenue aux archives"
+  }, 
+  "laboratory": {
+    "tech-stack": "empty"
+  }
 }
