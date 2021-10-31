@@ -9,6 +9,11 @@
     "welcome": "Bienvenue aux archives"
   }, 
   "laboratory": {
-    "tech-stack": "empty"
+    "tech-stack-text": {
+      "title": "Stack technique",
+      "everyday": "Ce que j'utilise au quotidien:", 
+      "training": "J'ai une formation plus poussée en:", 
+      "bonus": "J'ai déjà croisé:"
+    }
   }
 }

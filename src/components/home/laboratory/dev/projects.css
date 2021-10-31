@@ -1,3 +1,29 @@
 body {
     color: white;
 }
+
+.tech-stack-list {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.tech-stack-item {
+    margin: 2rem auto;
+    background-color: grey;
+}
+
+.projects {
+    display: flex;
+    flex-direction: column;
+}
+.project-details {
+
+    display: flex;
+    flex-direction: column;
+    margin: 1rem auto;
+
+}
+.project-details > * {
+    margin-bottom: 1rem;
+}

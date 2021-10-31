@@ -3,9 +3,8 @@ import './navigation.css';
 
 const Navigation = ({t, isLabActive, isArchivesActive, changeActiveElement}) => {
 
-    const upLab = t('Laboratory').toUpperCase();
-    const upArchive = t('Archives').toUpperCase();
-
+    const upLab = t('home.laboratory-title').toUpperCase();
+    const upArchive = t('home.archives-title').toUpperCase();
     
 
     return (

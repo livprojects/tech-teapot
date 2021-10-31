@@ -9,6 +9,11 @@
       "welcome": "Welcome to the archives room"
     }, 
     "laboratory": {
-      "tech-stack": "empty"
+      "tech-stack-text": {
+        "title": "Tech stack",
+        "everyday": "What I work with everyday:", 
+        "training": "I've been extensively trained in:", 
+        "bonus": "I have already encountered:"
+      }
     }
   }
