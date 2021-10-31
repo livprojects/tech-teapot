@@ -11,8 +11,7 @@ main {
 
     display: grid;
     grid-template-columns: [first-column] 20% [second-column] auto [third-column] auto;
-    grid-template-rows: [first-row] 40% [second-row] auto;
-
+    grid-template-rows: [first-row] 8rem [second-row] auto;
     width: 70%;
     margin: 5rem auto;
 
