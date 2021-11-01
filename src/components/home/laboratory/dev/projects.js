@@ -85,11 +85,13 @@ const Projects = ({t}) => {
                     const stack = project.techStack.join(', ');
                     return (
                         <div className="project-details" key={project.title + index}>
-                            <span>{project.title}</span>
-                            <span>{project.frDescription}</span>
-                            <span>{project.enDescription}</span>
-                            <span>{stack}</span>
-                            <span>{project.githubLink}</span>
+                            <div><span>{t('laboratory.project.title')}</span><span>{project.title}</span></div>
+                            <div><span>{t('laboratory.project.description')}</span><span>{project.frDescription}</span></div>
+                            <div><span>{t('laboratory.project.description')}</span><span>{project.enDescription}</span></div>
+                            <div><span>{t('laboratory.project.techstack')}</span><span>{stack}</span></div>
+                            <div><span>{t('laboratory.project.github')}</span><a href={project.githubLink}>Lien</a></div>
+                            <div><span>{t('laboratory.project.deployed')}</span>< a href={project.deployedLink}>Lien</a></div>
+                            <div><span>{t('laboratory.project.status')}</span><span>{project.status}</span></div>
                         </div>
                         )
                     })

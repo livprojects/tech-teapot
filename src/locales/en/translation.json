@@ -17,12 +17,12 @@
         "bonus": "I have already encountered:"
       }, 
       "project": {
-        "title": "Title",
-        "description": "Description",
-        "techstack": "Tech stack",
-        "github": "Github",
-        "deployed": "Deployed", 
-        "status": "Status"
+        "title": "Title:",
+        "description": "Description:",
+        "techstack": "Tech stack:",
+        "github": "Github:",
+        "deployed": "Deployed:", 
+        "status": "Status:"
       }
     }
   }

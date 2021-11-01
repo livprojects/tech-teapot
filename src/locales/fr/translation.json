@@ -17,12 +17,12 @@
       "bonus": "J'ai déjà croisé:"
     }, 
     "project": {
-      "title": "Titre",
-      "description": "Description",
-      "techstack": "Stack technique",
-      "github": "Github",
-      "deployed": "En ligne", 
-      "status": "Statut"
+      "title": "Titre:",
+      "description": "Description:",
+      "techstack": "Stack technique:",
+      "github": "Github:",
+      "deployed": "En ligne:", 
+      "status": "Statut:"
     }
   }
 }
