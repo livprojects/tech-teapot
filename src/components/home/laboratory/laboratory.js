@@ -5,7 +5,7 @@ import './laboratory.css';
 const Laboratory = ({t}) => {
 
     return (
-        <div className="gridbox-center gridbox-lab">{t('home.welcome-text')}
+        <div className="gridbox-center gridbox-lab">
         <Projects t={t}></Projects>
         </div>
         

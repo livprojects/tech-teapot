@@ -1,4 +1,5 @@
 import React from 'react';
+import { BrowserRouter as Router } from 'react-router-dom';
 import ReactDOM from 'react-dom';
 import './styles/reset.css';
 import './styles/style.css';
@@ -8,9 +9,11 @@ import './i18n';
 
 
 ReactDOM.render(
+  <Router>
   <React.StrictMode>
     <Home />
-  </React.StrictMode>,
+  </React.StrictMode>
+  </Router>,
   document.getElementById('root')
 );
 

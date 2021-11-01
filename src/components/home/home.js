@@ -1,11 +1,10 @@
 import {
-  React, 
-  useState, 
+  React
   } from 'react';
 import {
-    BrowserRouter as Router,
     Switch,
-    Route
+    Route,
+    useLocation 
     } from "react-router-dom";
 import '../../styles/reset.css';
 import '../../styles/style.css';
@@ -21,17 +20,13 @@ import { withNamespaces } from 'react-i18next';
 
 const Home = ({t}) => {
 
-const [isLabActive, setIsLabActive] = useState(false);
-const [isArchivesActive, setIsArchivesActive] = useState(false);
+let location = useLocation();
+let activeComponent = '';
 
-const changeActiveElement = () => {
-  setIsLabActive(!isLabActive);
-  setIsArchivesActive(!isArchivesActive);
-}
+activeComponent = location.pathname;
 
 
   return (
-    <Router>
 
     <main>  
       <Toggle t={t}></Toggle>
@@ -40,9 +35,9 @@ const changeActiveElement = () => {
         <ProfilePic></ProfilePic>
         <Shortcuts></Shortcuts>
 
-        <Navigation t={t} isLabActive={isLabActive} isArchivesActive={isArchivesActive} changeActiveElement={changeActiveElement}></Navigation>
+        <Navigation t={t} activeComponent={activeComponent}></Navigation>
         <Switch>
-          <Route path="/">
+          <Route path="/home">
             <Welcome t={t}/>
           </Route>
           <Route path="/laboratory">
@@ -58,7 +53,6 @@ const changeActiveElement = () => {
       </div>
 
     </main>
-    </Router>
 
 
   )
