@@ -4,7 +4,7 @@ import './portfolio-articles.css';
 const Archives = ({t}) => {
 
     return (
-    <div className="gridbox-archives">{t('archives.welcome')}
+    <div className="gridbox-archives gridbox-center">{t('archives.welcome')}
     </div>
     ) 
 

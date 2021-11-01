@@ -3,7 +3,8 @@
       "hi": "Hi", 
       "welcome-text": "My name is Liv. Welcome to my laboratory, where time and space collide. I have been a journalist, have learnt a few languages and now I spend most of my time coding. You will find my written pieces in the archive room and my coding projects if you scroll down a bit down the lab. If you don't want to wander around, you can take a shortcut on the left and go straight ahead to my resume. You can leave a message. Enjoy your time here.",
       "laboratory-title": "Laboratory",
-      "archives-title": "Archives"
+      "archives-title": "Archives",
+      "home-title": "Home"
     }, 
     "archives": {
       "welcome": "Welcome to the archives room"

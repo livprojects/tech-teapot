@@ -5,9 +5,9 @@ const Shortcuts = () => {
 return (
     <nav className='gridbox-shortcuts-nav'>
         <ul className='gridbox-shortcuts-nav-ul'>
-            <li>Lien 1</li>
-            <li>Lien 2</li>
-            <li>Lien 3</li>
+            <li>CV</li>
+            <li>Contact</li>
+            <li>Github</li>
         </ul>
     </nav>
 )
