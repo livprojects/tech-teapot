@@ -3,13 +3,13 @@
     [
         {
             "title": "Orizon",
-            "frDescription": "Vous rêvez de retrouver votre adolescence ?",
+            "frDescription": "Projet de groupe : Orizon est une plateforme interactive à destination des enfants et adolescents entre 10 et 17 ans à propos de la conquête spatiale. Explorez le système solaire avec notre mascotte, Spoutnik !",
             "enDescription": "Group project: Orizon is an informative website (hosted on Heroku) for kids and teenagers aged between 10 and 17 years old, about the upcoming space race. Starting with the Moon, you can browse through all the missions already scheduled.",
-            "techStack": ["HTML5", "CSS3", "Javascript"],
-            "githubLink": "https://github.com/livprojects/fanfiction-generator",
-            "deployedLink": "http://lachetescomz.surge.sh/", 
+            "techStack": ["HTML5", "CSS3", "Javascript", "React", "Redux", "Three.js", "Node.js", "Express.js", "PostgreSQL", "Sequelize"],
+            "githubLink": "https://github.com/livprojects/orizon-prod",
+            "deployedLink": "https://o-rizon.herokuapp.com/#/", 
             "status": "Complete", 
-            "screenLinks": ["", ""]
+            "screenLinks": ["https://o-rizon.herokuapp.com/images/e6e878cd427800cda8c3af083ca90fe2.png"]
         },
         {
             "title": "Fanfiction generator",
