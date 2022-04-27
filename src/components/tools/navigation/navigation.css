@@ -28,6 +28,7 @@
 .gridbox-nav-ul {
     display: flex;
     justify-content: space-around;
-
+    font-family: 'Averia Libre', cursive;
+    font-size: 1.5rem;
 }
 

@@ -3,7 +3,7 @@ body {
 }
 
 .laboratory {
-    max-width: 80%;
+    max-width: 100%;
 }
 
 .tech-stack-list {
@@ -18,14 +18,14 @@ body {
 
 .projects {
     display: flex;
-    width: 80%;
+    width: 100%;
     flex-wrap: wrap;
 }
 
 .project-details {
 
     display: flex;
-    max-width: 70%;
+    width: 40%;
     flex-direction: column;
     margin: 1rem;
     /* background-color: #7E77AA; */
@@ -38,6 +38,8 @@ body {
     display: block;
     text-transform: uppercase;
     margin: 0.5rem auto;
+    font-family: 'Averia Libre', cursive;
+    color:  rgba(160,228,255,0.87);
 
 }
 
