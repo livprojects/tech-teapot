@@ -5,7 +5,7 @@ import {
     Switch,
     Route,
     useLocation 
-    } from "react-router-dom";
+    } from 'react-router-dom';
 import '../../styles/reset.css';
 import '../../styles/style.css';
 import ProfilePic from '../tools/profile-picture/profilepicture';

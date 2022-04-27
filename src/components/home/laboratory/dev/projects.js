@@ -2,6 +2,7 @@
 import * as React from 'react';
 import data from '../../../../data/projects.json';
 import stack from '../../../../data/techstack.json';
+import i18n from '../../../../i18n.js';
 
 import './projects.css';
 
@@ -12,6 +13,8 @@ const Projects = ({t}) => {
     const dailyStack = stack['tech-stack'].everyday;
     const trainingStack = stack['tech-stack'].training;
     const bonusStack = stack['tech-stack'].bonus;
+    const getCurrentLng = i18n.language || window.localStorage.i18nextLng || '';
+    console.log("Langue active " + i18n.language);
 
     return (
         <div>
@@ -86,8 +89,11 @@ const Projects = ({t}) => {
                     return (
                         <div className="project-details" key={project.title + index}>
                             <div><span>{t('laboratory.project.title')}</span><span>{project.title}</span></div>
-                            <div><span>{t('laboratory.project.description')}</span><span>{project.frDescription}</span></div>
-                            <div><span>{t('laboratory.project.description')}</span><span>{project.enDescription}</span></div>
+                            <div>
+                                <span>{t('laboratory.project.description')}</span>
+                                {getCurrentLng === 'fr' && <span>{project.frDescription}</span>}
+                                {getCurrentLng === 'en' && <span>{project.enDescription}</span>}
+                            </div>
                             <div><span>{t('laboratory.project.techstack')}</span><span>{stack}</span></div>
                             <div><span>{t('laboratory.project.github')}</span><a href={project.githubLink}>Lien</a></div>
                             <div><span>{t('laboratory.project.deployed')}</span>< a href={project.deployedLink}>Lien</a></div>

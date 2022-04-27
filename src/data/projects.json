@@ -13,13 +13,13 @@
         },
         {
             "title": "Fanfiction generator",
-            "enDescriptionfrDescription": "Vous rêvez de retrouver votre adolescence ?",
+            "frDescription": "Vous rêvez de retrouver votre adolescence ? Découvrez notre générateur de fanfictions, digne de la meilleure époque de la plateforme de blogs à l'étoile.",
             "enDescription": "A sarcastic tribute to a time of our lives when we thought we were great writers. Prerequisites to enjoy this: speaking French and having spent way too long reading fanfictions when you were a teenager. (Gift for a friend)",
             "techStack": ["HTML5", "CSS3", "Javascript"],
             "githubLinkgithubLink": "https://github.com/livprojects/fanfiction-generator",
             "deployedLink": "http://lachetescomz.surge.sh/", 
             "status": "Complete", 
-            "screenLinks": ["", ""]
+            "screenLinks": ["https://i.imgur.com/Tp5TFFEm.png"]
         }
     ,
         {
