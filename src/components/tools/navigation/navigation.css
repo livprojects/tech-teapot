@@ -1,12 +1,9 @@
 .gridbox-nav {
     font-weight: bold;
-    color: #A0E4FF;
     display: flex;
     flex-direction: row;
     align-items: flex-end;
 }
-
-
 
 .thumbnail {
     padding: 0.8rem 1.5rem;
@@ -22,6 +19,12 @@
 .inactive {
     background-color: #7E77AA;
 }
+
+.gridbox-nav-ul > a {
+    color: #A0E4FF;
+    text-decoration: none;
+}
+
 .gridbox-nav-ul {
     display: flex;
     justify-content: space-around;

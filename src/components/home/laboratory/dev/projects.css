@@ -2,6 +2,10 @@ body {
     color: white;
 }
 
+.laboratory {
+    max-width: 80%;
+}
+
 .tech-stack-list {
     display: flex;
     flex-direction: column;
@@ -14,18 +18,26 @@ body {
 
 .projects {
     display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    align-items: flex-start;
+    width: 80%;
+    flex-wrap: wrap;
 }
+
 .project-details {
 
     display: flex;
+    max-width: 70%;
     flex-direction: column;
-    margin-top: 1rem;
-    background-color: #7E77AA;
+    margin: 1rem;
+    /* background-color: #7E77AA; */
     padding: 1rem;
     border-radius: 20px;
+    box-shadow: 3px 4px 7px 1px rgba(160,228,255,0.87);
+}
+
+.title {
+    display: block;
+    text-transform: uppercase;
+    margin: 0.5rem auto;
 
 }
 
