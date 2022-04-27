@@ -27,69 +27,92 @@
         {
             "enTitle": "Draw your tiles",
             "frTitle": "Draw your tiles",
-            "frDescription": "Jeu de dessin",
+            "frDescription": "Cliquez sur chaque tuile pour dessiner ce que vous voulez. Entièrement responsive en % et em, sans media queries.",
             "enDescription": "Click on the tiles to draw whatever you want, thanks to this tool coded in Javascript. Fully responsive with % and rem, no media queries.",
             "techStack": ["HTML5", "CSS3", "Javascript"],
             "githubLinkgithubLink": "https://github.com/livprojects/draw-your-tiles",
             "deployedLink": "http://drawyourtiles.surge.sh/", 
             "status": "Complete",
-            "screenLinks": ["", ""]
+            "screenLinks": ["https://i.imgur.com/vMOMwhZm.png"]
         }, 
         {
             "enTitle": "Orizon - Quiz",
             "frTitle": "Orizon - Quiz",
-            "frDescription": "Vous rêvez de retrouver votre adolescence ?",
-            "enDescription": "A quiz feature from the Orizon group project. I coded this feature myself and switched from a Redux environment (in the Orizon setting) to a slimmer React-only project, just for display purposes. Two quizzes are available for now: for each question, you can choose how many answers you want to click on. There is a confirmation step: green is the right answer, red is a wrong one. If you didn't select the right answer, the quiz won't tell you which it was: it is on purpose. You can click on any of the answers but there is a clue stating how many answers are expected. You get the results at the end of each quiz.",
-            "techStack": ["HTML5", "CSS3", "Javascript"],
-            "githubLink": "https://github.com/livprojects/fanfiction-generator",
-            "deployedLink": "http://lachetescomz.surge.sh/", 
+            "frDescription": "Version indépendante du quiz développé par mes soins pour la plateforme Orizon. A été adapté d'une version Redux à une approche React-only. Deux séries de questions sont disponibles actuellement.",
+            "enDescription": "A quiz feature from the Orizon group project. I coded this feature myself and switched from a Redux environment (in the Orizon setting) to a slimmer React-only project, just for display purposes. Two quizzes are available for now.",
+            "techStack": ["HTML5", "CSS3", "Javascript", "React"],
+            "githubLink": "https://github.com/livprojects/quiz-orizon",
+            "deployedLink": "http://orizon-quiz.surge.sh/", 
             "status": "Complete", 
-            "screenLinks": ["", ""]
+            "screenLinks": ["https://i.imgur.com/0N3dFPam.png"]
         },
         {
             "enTitle": "Ebooks",
             "frTitle": "Ebooks",
-            "frDescription": "Vous rêvez de retrouver votre adolescence ?",
-            "enDescription": "Ebooks is a student project written in Java. We were two to develop this platform enabling the user to post their stories and keep track of them.",
-            "techStack": ["HTML5", "CSS3", "Javascript"],
+            "frDescription": "Ebooks est un projet étudiant à deux codé en Java (Spring) et JSP. C'est une plateforme permettant à l'utilisateur de suivre la progression des histoires qu'il a écrites. Elle n'existe qu'en version locale, via Github.",
+            "enDescription": "Ebooks is a student project coded in Java (Spring). We were two to develop this platform enabling the user to keep track of the stories they wrote. It exists only as a local repository.",
+            "techStack": ["Java", "Spring WebMVC", "Spring DATA-JPA", "Hibernate", "JSP", "HTML5", "CSS3"],
             "githubLink": "https://github.com/livprojects/fanfiction-generator",
-            "deployedLink": "http://lachetescomz.surge.sh/", 
+            "deployedLink": "", 
             "status": "Complete", 
             "screenLinks": ["", ""]
         }, 
         {
             "enTitle": "Magic Eight Ball",
             "frTitle": "Magic Eight Ball",
-            "frDescription": "Vous rêvez de retrouver votre adolescence ?",
+            "frDescription": "N'avez-vous jamais rêvé de connaître votre avenir ? Cette boule magique vous apporte les réponses à vos plus secrètes aspirations.",
             "enDescription": "Have you ever wanted to know what your fate will be? This is a tribute to magic eight balls.",
             "techStack": ["HTML5", "CSS3", "Javascript"],
-            "githubLink": "https://github.com/livprojects/fanfiction-generator",
-            "deployedLink": "http://lachetescomz.surge.sh/", 
-            "status": "Complete", 
+            "githubLink": "https://github.com/livprojects/MagicEightBall",
+            "deployedLink": "http://work-your-magic.surge.sh/", 
+            "status": "Needs fixing", 
             "screenLinks": ["", ""]
         }, 
         {
-            "enTitle": "Basic antique portfolio",
-            "frTitle": "Portfolio basique",
-            "frDescription": "Vous rêvez de retrouver votre adolescence ?",
+            "enTitle": "Back to basics",
+            "frTitle": "Retour aux sources",
+            "frDescription": "A des années-lumière du Web 3.0, mon premier portfolio basique en HTML5 et CSS3. Utilise CSS Grid.",
             "enDescription": "A very basic portfolio in HTML and CSS, while a more ambitious portfolio is in the making. Uses CSS Grid.",
             "techStack": ["HTML5", "CSS3", "Javascript"],
-            "githubLink": "https://github.com/livprojects/fanfiction-generator",
-            "deployedLink": "http://lachetescomz.surge.sh/", 
+            "githubLink": "https://github.com/livprojects/livprojects.github.io",
+            "deployedLink": "https://livprojects.github.io/", 
             "status": "Complete", 
-            "screenLinks": ["", ""]
+            "screenLinks": ["https://i.imgur.com/XR7jtnqm.png"]
         }, 
         {
             "enTitle": "Warlock Holmes",
             "frTitle": "Warlock Holmes",
-            "frDescription": "Vous rêvez de retrouver votre adolescence ?",
-            "enDescription": "Dreaming of being an angsty teenager once again?",
-            "techStack": ["HTML5", "CSS3", "Javascript"],
-            "githubLink": "https://github.com/livprojects/fanfiction-generator",
-            "deployedLink": "http://lachetescomz.surge.sh/", 
+            "frDescription": "Le Cluedo, mais avec des monstres. Un projet étudiant en Java(Spring)/Vue.js en friche.",
+            "enDescription": "A monster-ized version of the classic game of Cluedo. A Java(Spring)/Vue.js student project on a forever pause.",
+            "techStack": ["HTML5", "CSS3", "Javascript", "Vue.js", "Java", "Spring"],
+            "githubLink": "https://github.com/livprojects/warlock-holmes",
+            "deployedLink": "", 
+            "status": "Abandoned", 
+            "screenLinks": [""]
+        }, 
+        {
+            "enTitle": "Dinos on edge",
+            "frTitle": "Des dinos au bord de la rupture",
+            "frDescription": "Une expérimentation de jeu avec Scracth pour un exercice du cours CS50. Vous êtes un dino et vous devez éviter les météorites.",
+            "enDescription": "In this game, you control a dinosaur with the arrows of your keyboard and your goal is to avoid meteors falling on Earth. It's part of a problem set designed by Harvard's CS50.",
+            "techStack": ["Scratch"],
+            "githubLink": "https://github.com/livprojects/DinosOnEdge",
+            "deployedLink": "", 
             "status": "Complete", 
-            "screenLinks": ["", ""]
+            "screenLinks": [""]
+        },
+        {
+            "enTitle": "Sketch book",
+            "frTitle": "Cahier de brouillon",
+            "frDescription": "Une multitude de scripts et d'exercices de découverte de divers langages informatiques.",
+            "enDescription": "A multitude of coding exercises in several languages, for the sole purpose of experimentation.",
+            "techStack": ["C", "Java"],
+            "githubLink": "https://github.com/livprojects/sketch-book",
+            "deployedLink": "", 
+            "status": "En cours", 
+            "screenLinks": [""]
         }
+        
 
     ]
     

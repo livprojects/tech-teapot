@@ -98,7 +98,11 @@ const Projects = ({t}) => {
                             </div>
                             <div><span>{t('laboratory.project.techstack')}</span><span>{stack}</span></div>
                             <div><span>{t('laboratory.project.github')}</span><a href={project.githubLink}>Lien</a></div>
-                            <div><span>{t('laboratory.project.deployed')}</span>< a href={project.deployedLink}>Lien</a></div>
+                            {project.deployedLink &&
+                                <div>
+                                    <span>{t('laboratory.project.deployed')}</span>
+                                    <a href={project.deployedLink}>Lien</a>
+                                </div>}
                             <div><span>{t('laboratory.project.status')}</span><span>{project.status}</span></div>
                         </div>
                         )
