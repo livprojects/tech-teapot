@@ -2,7 +2,8 @@
     "projects":
     [
         {
-            "title": "Orizon",
+            "enTitle": "Orizon",
+            "frTitle": "Orizon",
             "frDescription": "Projet de groupe : Orizon est une plateforme interactive à destination des enfants et adolescents entre 10 et 17 ans à propos de la conquête spatiale. Explorez le système solaire avec notre mascotte, Spoutnik !",
             "enDescription": "Group project: Orizon is an informative website (hosted on Heroku) for kids and teenagers aged between 10 and 17 years old, about the upcoming space race. Starting with the Moon, you can browse through all the missions already scheduled.",
             "techStack": ["HTML5", "CSS3", "Javascript", "React", "Redux", "Three.js", "Node.js", "Express.js", "PostgreSQL", "Sequelize"],
@@ -12,7 +13,8 @@
             "screenLinks": ["https://o-rizon.herokuapp.com/images/e6e878cd427800cda8c3af083ca90fe2.png"]
         },
         {
-            "title": "Fanfiction generator",
+            "enTitle": "Fanfiction generator",
+            "frTitle": "Générateur de fanfiction",
             "frDescription": "Vous rêvez de retrouver votre adolescence ? Découvrez notre générateur de fanfictions, digne de la meilleure époque de la plateforme de blogs à l'étoile.",
             "enDescription": "A sarcastic tribute to a time of our lives when we thought we were great writers. Prerequisites to enjoy this: speaking French and having spent way too long reading fanfictions when you were a teenager. (Gift for a friend)",
             "techStack": ["HTML5", "CSS3", "Javascript"],
@@ -23,7 +25,8 @@
         }
     ,
         {
-            "title": "Draw your tiles",
+            "enTitle": "Draw your tiles",
+            "frTitle": "Draw your tiles",
             "frDescription": "Jeu de dessin",
             "enDescription": "Click on the tiles to draw whatever you want, thanks to this tool coded in Javascript. Fully responsive with % and rem, no media queries.",
             "techStack": ["HTML5", "CSS3", "Javascript"],
@@ -33,7 +36,8 @@
             "screenLinks": ["", ""]
         }, 
         {
-            "title": "Orizon - Quiz",
+            "enTitle": "Orizon - Quiz",
+            "frTitle": "Orizon - Quiz",
             "frDescription": "Vous rêvez de retrouver votre adolescence ?",
             "enDescription": "A quiz feature from the Orizon group project. I coded this feature myself and switched from a Redux environment (in the Orizon setting) to a slimmer React-only project, just for display purposes. Two quizzes are available for now: for each question, you can choose how many answers you want to click on. There is a confirmation step: green is the right answer, red is a wrong one. If you didn't select the right answer, the quiz won't tell you which it was: it is on purpose. You can click on any of the answers but there is a clue stating how many answers are expected. You get the results at the end of each quiz.",
             "techStack": ["HTML5", "CSS3", "Javascript"],
@@ -43,7 +47,8 @@
             "screenLinks": ["", ""]
         },
         {
-            "title": "Ebooks",
+            "enTitle": "Ebooks",
+            "frTitle": "Ebooks",
             "frDescription": "Vous rêvez de retrouver votre adolescence ?",
             "enDescription": "Ebooks is a student project written in Java. We were two to develop this platform enabling the user to post their stories and keep track of them.",
             "techStack": ["HTML5", "CSS3", "Javascript"],
@@ -53,7 +58,8 @@
             "screenLinks": ["", ""]
         }, 
         {
-            "title": "Magic Eight Ball",
+            "enTitle": "Magic Eight Ball",
+            "frTitle": "Magic Eight Ball",
             "frDescription": "Vous rêvez de retrouver votre adolescence ?",
             "enDescription": "Have you ever wanted to know what your fate will be? This is a tribute to magic eight balls.",
             "techStack": ["HTML5", "CSS3", "Javascript"],
@@ -63,7 +69,8 @@
             "screenLinks": ["", ""]
         }, 
         {
-            "title": "Basic antique portfolio",
+            "enTitle": "Basic antique portfolio",
+            "frTitle": "Portfolio basique",
             "frDescription": "Vous rêvez de retrouver votre adolescence ?",
             "enDescription": "A very basic portfolio in HTML and CSS, while a more ambitious portfolio is in the making. Uses CSS Grid.",
             "techStack": ["HTML5", "CSS3", "Javascript"],
@@ -73,7 +80,8 @@
             "screenLinks": ["", ""]
         }, 
         {
-            "title": "Warlock Holmes",
+            "enTitle": "Warlock Holmes",
+            "frTitle": "Warlock Holmes",
             "frDescription": "Vous rêvez de retrouver votre adolescence ?",
             "enDescription": "Dreaming of being an angsty teenager once again?",
             "techStack": ["HTML5", "CSS3", "Javascript"],
