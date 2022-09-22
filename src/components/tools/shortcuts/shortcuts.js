@@ -11,10 +11,9 @@ const Shortcuts = () => {
 
 return (
     <nav className={`gridbox-shortcuts-nav ${showPanel ? "show" : ""}`} onClick={() => togglePanel()}>
-        <div>
-            <button className='gridbox-shortcuts-nav-button'>More links</button>
-        </div>
-        <div>
+        
+        <button className='gridbox-shortcuts-nav-button'>More links</button>
+        <div className='gridbox-shortcuts-nav-links'>
             <ul className='gridbox-shortcuts-nav-ul'>
                 <li>CV</li>
                 <li>Contact</li>

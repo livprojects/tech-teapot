@@ -2,33 +2,40 @@
 .gridbox-shortcuts-nav {
 
     background-color: #404363;
-    max-height: 80%;
+    height: 15em;
     display: flex;
-    justify-content: space-around;
     align-items: center;
    
     /*Sliding properties*/
     z-index: 1;
-    transform: translateX(80%);
+    transform: translateX(75%);
     transition: .3s ease-out;
 
-
+    clip-path: polygon(5.25% 41%, 96.75% 0%, 96.75% 52.27%, 5.25% 95%); 
 }
 
 .show {
-    transform: translateX(0%);
+    transform: translateX(5%) translateY(30%);
 }
 .gridbox-shortcuts-nav-ul {
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
     align-items: center;
+    margin-bottom: 2rem;
 }
 .gridbox-shortcuts-nav ul li {
     margin-bottom: 0.6rem;
     text-align: center;
+    padding: 0.2rem;
 }
 
 .gridbox-shortcuts-nav-button {
+    margin: 0 0.4rem 0 -0.4rem;
     transform: rotate(-90deg);
+    font-family: 'Averia Libre', cursive;
+    font-size: 1rem;
+    color: #A0E4FF;
+    margin-top: 1.5rem;
 }
+

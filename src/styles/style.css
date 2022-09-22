@@ -66,6 +66,16 @@ main {
 
 }
 
+.show {
+    transform: translateX(0%);
+}
+
+.gridbox-shortcuts-nav ul li {
+    margin-bottom: 0.6rem;
+    text-align: center;
+}
+
+
 
 
 
