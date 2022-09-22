@@ -37,7 +37,7 @@ activeComponent = location.pathname;
 
         <Navigation t={t} activeComponent={activeComponent}></Navigation>
         <Switch>
-          <Route path="/home">
+        <Route exact path="/">
             <Welcome t={t}/>
           </Route>
           <Route path="/laboratory">

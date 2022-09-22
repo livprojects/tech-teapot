@@ -8,7 +8,6 @@ const Laboratory = ({t}) => {
         <div className="gridbox-center gridbox-lab">
         <Projects t={t}></Projects>
         </div>
-        
     ) 
 
 }

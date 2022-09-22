@@ -15,7 +15,7 @@ const Navigation = ({t, activeComponent}) => {
     return (
         <nav className='gridbox-nav'>
             <div className='gridbox-nav-ul'>
-                <Link to="/home" className={`thumbnail ${activeComponent ==='/home' ? "active" : "inactive"}`}>{upHome}</Link>
+                <Link to="/" className={`thumbnail ${activeComponent ==='/' ? "active" : "inactive"}`}>{upHome}</Link>
                 <Link to="/laboratory" className={`thumbnail ${activeComponent ==='/laboratory' ? "active" : "inactive"}`}>{upLab}</Link>
                 <Link to="/archives" className={`thumbnail ${activeComponent ==='/archives' ? "active" : "inactive"}`}>{upArchive}</Link>
             </div>
