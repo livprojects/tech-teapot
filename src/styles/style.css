@@ -14,7 +14,15 @@ main {
     grid-template-rows: [first-row] 8rem [second-row] auto;
     width: 70%;
     margin: 5rem auto;
-
+    border: 0.2rem solid #fff;
+    border-radius: 2rem;
+    padding: 0.4em;
+    box-shadow: 0 0 .2rem #fff,
+                0 0 .2rem #fff,
+                0 0 2rem #95E4FF,
+                0 0 0.8rem #95E4FF,
+                0 0 2.8rem #95E4FF,
+                inset 0 0 1.3rem #95E4FF;
  
 }
 
@@ -44,21 +52,19 @@ main {
     grid-column-end: third-column;
     grid-row-start: second-row;
     grid-row-end: second-row;
+    z-index: 10;
 
 }
 
 .gridbox-shortcuts-nav {
 
-    background-color: rgb(118, 164, 118);
-
+    /* Grid proprties*/
     grid-column-start: first-column;
     grid-column-end: first-column;
     grid-row-start: second-row;
     grid-row-end: second-row;
 
 }
-
-
 
 
 

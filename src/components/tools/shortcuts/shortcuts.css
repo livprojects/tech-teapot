@@ -2,7 +2,33 @@
 .gridbox-shortcuts-nav {
 
     background-color: #404363;
-
+    max-height: 80%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
    
+    /*Sliding properties*/
+    z-index: 1;
+    transform: translateX(80%);
+    transition: .3s ease-out;
 
+
+}
+
+.show {
+    transform: translateX(0%);
+}
+.gridbox-shortcuts-nav-ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.gridbox-shortcuts-nav ul li {
+    margin-bottom: 0.6rem;
+    text-align: center;
+}
+
+.gridbox-shortcuts-nav-button {
+    transform: rotate(-90deg);
 }
