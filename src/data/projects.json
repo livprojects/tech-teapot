@@ -2,6 +2,17 @@
     "projects":
     [
         {
+            "enTitle": "This portfolio",
+            "frTitle": "Ce portfolio",
+            "frDescription": "Ce portfolio présente à la fois mon parcours de journaliste et de développeuse full-stack. Il ne comporte qu'un front-end réalisé avec React. Les données (projets, articles) sont stockées dans un json. A terme, lorsque la masse de données le justifiera, ces fichiers seront remplacés par une base de données. L'affichage est structuré en Grid et un système de traduction français-anglais a été mis en place. Une pipeline est en projet pour n'autoriser le déploiement que si le projet compile.",
+            "enDescription": "This portfolio is a showcase for my path as both a journalist and a programmer. There is no back-end and the front-end was made with React. Data is currently stored in json files, but if the quantity of projects and articles ever justifies it, I will set up a database to replace those files. The front-end was structured with the Grid system and a French-English translation was set up. I will set up a pipeline on Github to allow deployment only if there is no compilation error.",
+            "techStack": ["HTML5", "CSS3", "Javascript", "React", "Grid"],
+            "githubLink": "",
+            "deployedLink": "", 
+            "status": "Complete", 
+            "screenLinks": [""]
+        },
+        {
             "enTitle": "Orizon",
             "frTitle": "Orizon",
             "frDescription": "Projet de groupe : Orizon est une plateforme interactive à destination des enfants et adolescents entre 10 et 17 ans à propos de la conquête spatiale. Explorez le système solaire avec notre mascotte, Spoutnik !",
@@ -47,6 +58,17 @@
             "screenLinks": ["https://i.imgur.com/0N3dFPam.png"]
         },
         {
+            "enTitle": "Sketch book",
+            "frTitle": "Cahier de brouillon",
+            "frDescription": "Une multitude de scripts et d'exercices de découverte de divers langages informatiques.",
+            "enDescription": "A multitude of coding exercises in several languages, for the sole purpose of experimentation.",
+            "techStack": ["C", "Java"],
+            "githubLink": "https://github.com/livprojects/sketch-book",
+            "deployedLink": "", 
+            "status": "En cours", 
+            "screenLinks": [""]
+        },
+        {
             "enTitle": "Ebooks",
             "frTitle": "Ebooks",
             "frDescription": "Ebooks est un projet étudiant à deux codé en Java (Spring) et JSP. C'est une plateforme permettant à l'utilisateur de suivre la progression des histoires qu'il a écrites. Elle n'existe qu'en version locale, via Github.",
@@ -65,7 +87,7 @@
             "techStack": ["HTML5", "CSS3", "Javascript"],
             "githubLink": "https://github.com/livprojects/MagicEightBall",
             "deployedLink": "http://work-your-magic.surge.sh/", 
-            "status": "Needs fixing", 
+            "status": "On hold", 
             "screenLinks": ["", ""]
         }, 
         {
@@ -82,12 +104,12 @@
         {
             "enTitle": "Warlock Holmes",
             "frTitle": "Warlock Holmes",
-            "frDescription": "Le Cluedo, mais avec des monstres. Un projet étudiant en Java(Spring)/Vue.js en friche.",
+            "frDescription": "Le Cluedo, mais avec des monstres. Un projet étudiant en Java(Spring)/Vue.js en friches.",
             "enDescription": "A monster-ized version of the classic game of Cluedo. A Java(Spring)/Vue.js student project on a forever pause.",
             "techStack": ["HTML5", "CSS3", "Javascript", "Vue.js", "Java", "Spring"],
             "githubLink": "https://github.com/livprojects/warlock-holmes",
             "deployedLink": "", 
-            "status": "Abandoned", 
+            "status": "On hold", 
             "screenLinks": [""]
         }, 
         {
@@ -100,20 +122,7 @@
             "deployedLink": "", 
             "status": "Complete", 
             "screenLinks": [""]
-        },
-        {
-            "enTitle": "Sketch book",
-            "frTitle": "Cahier de brouillon",
-            "frDescription": "Une multitude de scripts et d'exercices de découverte de divers langages informatiques.",
-            "enDescription": "A multitude of coding exercises in several languages, for the sole purpose of experimentation.",
-            "techStack": ["C", "Java"],
-            "githubLink": "https://github.com/livprojects/sketch-book",
-            "deployedLink": "", 
-            "status": "En cours", 
-            "screenLinks": [""]
-        }
-        
-
+        }       
     ]
     
 

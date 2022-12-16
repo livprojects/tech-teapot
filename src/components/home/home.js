@@ -9,12 +9,12 @@ import {
 import '../../styles/reset.css';
 import '../../styles/style.css';
 import ProfilePic from '../tools/profile-picture/profilepicture';
-import Laboratory from './laboratory/laboratory';
+import Laboratory from './development/programming';
 import Archives from '../journalism/portfolio-articles';
 import Welcome from './welcome/welcome';
 
 import Navigation from '../tools/navigation/navigation';
-import Shortcuts from '../tools/shortcuts/shortcuts';
+import Shortcuts from '../tools/navigation/shortcuts/shortcuts';
 import Toggle from '../tools/toggle';
 import { withNamespaces } from 'react-i18next';
 

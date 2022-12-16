@@ -8,9 +8,10 @@ import './navigation.css';
 const Navigation = ({t, activeComponent}) => {
 
 
-    const upLab = t('home.laboratory-title').toUpperCase();
-    const upArchive = t('home.archives-title').toUpperCase();
-    const upHome = t('home.home-title').toUpperCase();
+    const upLab = t('navigation.laboratory-title').toUpperCase();
+    const upArchive = t('navigation.archives-title').toUpperCase();
+    const upHome = t('navigation.home-title').toUpperCase();
+
 
     return (
         <nav className='gridbox-nav'>

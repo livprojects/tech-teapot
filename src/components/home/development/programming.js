@@ -1,8 +1,8 @@
 import * as React from 'react';
-import Projects from './dev/projects';
-import './laboratory.css';
+import Projects from './projects/projects';
+import './programming.css';
 
-const Laboratory = ({t}) => {
+const Programming = ({t}) => {
 
     return (
         <div className="gridbox-center gridbox-lab">
@@ -12,4 +12,4 @@ const Laboratory = ({t}) => {
 
 }
 
-export default Laboratory;
+export default Programming;

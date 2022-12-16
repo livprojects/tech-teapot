@@ -1,11 +1,14 @@
   {
     "home": {
       "hi": "Hi", 
-      "welcome-text": "My name is Liv. Welcome to my laboratory, where time and space collide. I have been a journalist, have learnt a few languages and now I spend most of my time coding. You will find my written pieces in the archive room and my coding projects if you scroll down a bit down the lab. If you don't want to wander around, you can take a shortcut on the left and go straight ahead to my resume. You can leave a message. Enjoy your time here.",
-      "laboratory-title": "Laboratory",
-      "archives-title": "Archives",
-      "home-title": "Home"
+      "welcome-text": "My name is Liv Audigane. At the moment, I am a 28-year-old full-stack developer working Java and Angular 10. I have been extensively trained in Javascript, mostly React and Node.js. I also have a master's degree in journalism and political science and another in foreign languages (English, German and Russian). I have worked as a reporter for six years. I am passionate about the impact of technology and the way it shapes our daily lives, new forms of storytelling and foreign cultures. Whether it is about technology or journalism, I will be glad to hear from you."
     }, 
+    "navigation": {
+      "laboratory-title": "Programming",
+      "archives-title": "Journalism",
+      "home-title": "Home", 
+      "more-links": "Shortcuts"
+    },
     "archives": {
       "welcome": "Welcome to the archives room"
     }, 
@@ -14,7 +17,7 @@
         "title": "Tech stack",
         "everyday": "What I work with everyday:", 
         "training": "I've been extensively trained in:", 
-        "bonus": "I have already encountered:"
+        "bonus": "I have already played with:"
       }, 
       "project": {
         "title": "Title",
