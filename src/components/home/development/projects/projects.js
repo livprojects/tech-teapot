@@ -76,9 +76,6 @@ const Projects = ({t}) => {
                 </div>
             </div>
 
-            <p>This portfolio is made with React and powered by xx.</p> 
-
-
             <div className="projects">
                 {
                     projects.map((project, index) => {

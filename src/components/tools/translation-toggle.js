@@ -2,10 +2,10 @@ import * as React from 'react';
 import i18n from '../../i18n';
 import EiffelTower from '../../images/eiffel-tower.png';
 import BigBen from '../../images/big-ben.png';
-import './toggle.css';
+import './translation-toggle.css';
 
 
-const Toggle = ({t}) => {
+const TranslationToggle = ({t}) => {
 
     const changeLanguage = (lng) => {
         i18n.changeLanguage(lng);
@@ -28,4 +28,4 @@ return(
 
 } 
 
-export default Toggle;
+export default TranslationToggle;

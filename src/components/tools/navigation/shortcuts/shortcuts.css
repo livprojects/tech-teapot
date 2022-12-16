@@ -31,11 +31,10 @@
 }
 
 .gridbox-shortcuts-nav-button {
-    margin: 0 0.4rem 0 -0.4rem;
+    margin: 2.5rem 0.4rem 0 -0.4rem;
     transform: rotate(-90deg);
     font-family: 'Averia Libre', serif;
     font-size: 1rem;
     color: #A0E4FF;
-    margin-top: 1.5rem;
 }
 

@@ -15,7 +15,7 @@ import Welcome from './welcome/welcome';
 
 import Navigation from '../tools/navigation/navigation';
 import Shortcuts from '../tools/navigation/shortcuts/shortcuts';
-import Toggle from '../tools/toggle';
+import Toggle from '../tools/translation-toggle';
 import { withNamespaces } from 'react-i18next';
 
 const Home = ({t}) => {
@@ -33,7 +33,7 @@ activeComponent = location.pathname;
 
       <div className="gridbox">
         <ProfilePic></ProfilePic>
-        <Shortcuts></Shortcuts>
+        <Shortcuts t={t}></Shortcuts>
 
         <Navigation t={t} activeComponent={activeComponent}></Navigation>
         <Switch>
