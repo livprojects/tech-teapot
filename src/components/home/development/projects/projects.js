@@ -25,9 +25,9 @@ const Projects = ({t}) => {
                     {
                         dailyStack.map((tech, index) =>   
                             {
-                                const comma =  index >= dailyStack.length-1 ? null : <span>, </span>;
+                                const comma = index >= dailyStack.length-1 ? null : <span>, </span>;
                                 return (
-                                <React.Fragment key={tech + index}>
+                                <React.Fragment key={tech}>
                                     <span>
                                         {tech}
                                     </span>
@@ -43,9 +43,9 @@ const Projects = ({t}) => {
                     {
                         trainingStack.map((tech, index) =>   
                             {
-                                const comma =  index >= dailyStack.length-1 ? null : <span>, </span>;
+                                const comma = index >= trainingStack.length-1 ? null : <span>, </span>;
                                 return (
-                                <React.Fragment key={tech + index}>
+                                <React.Fragment key={tech}>
                                     <span>
                                         {tech}
                                     </span>
@@ -61,9 +61,9 @@ const Projects = ({t}) => {
                     {
                         bonusStack.map((tech, index) =>   
                             {
-                                const comma =  index >= dailyStack.length-1 ? null : <span>, </span>;
+                                const comma =  index >= bonusStack.length-1 ? null : <span>, </span>;
                                 return (
-                                <React.Fragment key={tech + index}>
+                                <React.Fragment key={tech}>
                                     <span>
                                         {tech}
                                     </span>
@@ -82,7 +82,7 @@ const Projects = ({t}) => {
 
                     const stack = project.techStack.join(', ');
                     return (
-                        <div className="project-details" key={project.enTitle + index}>
+                        <div className="project-details" key={project.enTitle}>
                             <div><span className="title">{t('laboratory.project.title')}</span>                                
                                 {getCurrentLng === 'fr' && <span>{project.frTitle}</span>}
                                 {getCurrentLng === 'en' && <span>{project.enTitle}</span>}</div>

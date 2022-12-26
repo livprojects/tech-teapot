@@ -9,8 +9,8 @@ import {
 import '../../styles/reset.css';
 import '../../styles/style.css';
 import ProfilePic from '../tools/profile-picture/profilepicture';
-import Laboratory from './development/programming';
-import Archives from '../journalism/portfolio-articles';
+import Programming from './development/programming';
+import Journalism from './journalism/portfolio-articles';
 import Welcome from './welcome/welcome';
 
 import Navigation from '../tools/navigation/navigation';
@@ -40,11 +40,11 @@ activeComponent = location.pathname;
         <Route exact path="/">
             <Welcome t={t}/>
           </Route>
-          <Route path="/laboratory">
-            <Laboratory t={t}></Laboratory>
+          <Route path="/programming">
+            <Programming t={t}></Programming>
           </Route>
-          <Route path="/archives">
-           <Archives t={t}></Archives>
+          <Route path="/journalism">
+           <Journalism t={t}></Journalism>
           </Route>       
         </Switch>
 
