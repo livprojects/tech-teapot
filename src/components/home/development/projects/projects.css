@@ -38,8 +38,9 @@ body {
     display: block;
     text-transform: uppercase;
     margin: 0.5rem auto;
-    font-family: 'Averia Libre', serif;
+    font-family: 'Calps Sans', sans-serif;
     color:  rgba(160,228,255,0.87);
+    font-weight: 400;
 
 }
 
