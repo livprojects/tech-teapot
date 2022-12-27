@@ -7,17 +7,18 @@
 .language-toggle {
     display: flex;
     width: 10rem;
-    margin: 2rem 3rem auto auto;
+    margin: 4rem 10rem auto auto;
+    align-items: baseline;
 }   
 
 .language-toggle span {
-    color: #A0E4FF
+    color: #A0E4FF;
+    font-family: 'Calps Sans', 'Arial', sans-serif;
+    font-weight: 600;
 }   
 
 .language-toggle-icon {
-    background-color: #7E77AA;
-    border-radius: 150%;
-    padding: 1.2rem;
+    padding: 0.8rem;
     margin: 0 1rem 0 0;
 
 }

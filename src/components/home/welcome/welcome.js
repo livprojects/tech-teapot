@@ -10,8 +10,12 @@ const Welcome = ({t}) => {
     }
 
     return (
-    <div className="gridbox-center gridbox-welcome">{t('home.welcome-text', {profile})}
-    </div>
+    <>
+        <div id="baseline">{t('home.baseline')}
+        </div>
+        <div className="gridbox-center gridbox-welcome">{t('home.welcome-text', {profile})}
+        </div>
+    </>
     )
 
 }

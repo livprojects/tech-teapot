@@ -17,7 +17,7 @@ const Projects = ({t}) => {
     return (
         <div className= "laboratory">
 
-            <h2>{t('laboratory.tech-stack-text.title')}</h2>
+            <h2 className="tech-stack-title">{t('laboratory.tech-stack-text.title')}</h2>
 
             <div className="tech-stack-list">
                 <div className="tech-stack-item">

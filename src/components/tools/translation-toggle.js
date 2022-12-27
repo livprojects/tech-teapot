@@ -16,11 +16,11 @@ return(
         <div className="language-toggle">
             <button className="language-toggle-icon" onClick={() => changeLanguage('fr')}>
                 <img alt="Eiffel Tower icon by freepik" src={EiffelTower}></img>
-                <span>Français</span>
+                <span>FR</span>
             </button>
             <button className="language-toggle-icon" onClick={() => changeLanguage('en')}>
                 <img alt="Big Ben icon by wanicon" id="bigbenpic" src={BigBen}></img>
-                <span>English</span>
+                <span>EN</span>
             </button>
         </div>
     </div>

@@ -6,6 +6,12 @@ body {
     max-width: 100%;
 }
 
+.tech-stack-title {
+    font-family: 'Kompot Display Demo', 'Times New Roman', serif;
+    font-size: 3rem;
+
+}
+
 .tech-stack-list {
     display: flex;
     flex-direction: column;
