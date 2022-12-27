@@ -18,9 +18,9 @@ return (
         <button className='gridbox-shortcuts-nav-button'>{slidingPanelTitle}</button>
         <div className='gridbox-shortcuts-nav-links'>
             <ul className='gridbox-shortcuts-nav-ul'>
-                <li>CV</li>
-                <li>Contact</li>
-                <li>Github</li>
+                <li><a href="https://www.linkedin.com/in/liv-audigane/">Linkedin</a></li>
+                <li><a href="https://github.com/livprojects">Github</a></li>
+                <li>Twitter</li>
             </ul>
         </div>
     </nav>
