@@ -14,14 +14,14 @@ const TranslationToggle = ({t}) => {
 return(
     <div className="left-box-toggle">
         <div className="language-toggle">
-            <div className="language-toggle-icon" onClick={() => changeLanguage('fr')}>
+            <button className="language-toggle-icon" onClick={() => changeLanguage('fr')}>
                 <img alt="Eiffel Tower icon by freepik" src={EiffelTower}></img>
                 <span>Français</span>
-            </div>
-            <div className="language-toggle-icon" onClick={() => changeLanguage('en')}>
+            </button>
+            <button className="language-toggle-icon" onClick={() => changeLanguage('en')}>
                 <img alt="Big Ben icon by wanicon" id="bigbenpic" src={BigBen}></img>
                 <span>English</span>
-            </div>
+            </button>
         </div>
     </div>
 )

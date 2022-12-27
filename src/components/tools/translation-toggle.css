@@ -7,8 +7,10 @@
 .language-toggle {
     display: flex;
     width: 10rem;
-
     margin: 2rem 3rem auto auto;
+}   
+
+.language-toggle span {
     color: #A0E4FF
 }   
 

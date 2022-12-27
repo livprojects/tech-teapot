@@ -1,7 +1,7 @@
   {
     "home": {
       "hi": "Hi", 
-      "welcome-text": "My name is Liv Audigane. At the moment, I am a 28-year-old full-stack developer working Java 8 and Angular 10. I have been extensively trained in Javascript, mostly React and Node.js. I also have a master's degree in journalism and political science and another in foreign languages (English, German and Russian). I have worked as a reporter for six years. I am passionate about the impact of technology and the way it shapes our daily lives, new forms of storytelling and foreign cultures. Whether it is about technology or journalism, I will be glad to hear from you."
+      "welcome-text": "My name is Liv Audigane. I am 28 years old and have {years} years of experience in full-stack developement. I am currently working on a Java 8 and Angular 10 tech stack. I have also been extensively trained in Javascript, mostly React and Node.js. I also have a master's degree in journalism and political science and another in foreign languages (English, German and Russian). I have worked as a reporter for six years. I am passionate about the impact of technology and the way it shapes our daily lives, new forms of storytelling and foreign cultures. Whether it is about technology or journalism, I will be glad to hear from you."
     }, 
     "navigation": {
       "laboratory-title": "Programming",
