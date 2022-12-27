@@ -4,8 +4,13 @@ import './welcome.css';
 
 const Welcome = ({t}) => {
 
+    const profile = {
+        age : '28',
+        experience: '2'
+    }
+
     return (
-    <div className="gridbox-center gridbox-welcome">{t('home.welcome-text', {years : "2"})}
+    <div className="gridbox-center gridbox-welcome">{t('home.welcome-text', {profile})}
     </div>
     )
 
