@@ -19,13 +19,7 @@ main {
     border: 0.2rem solid #fff;
     border-radius: 2rem;
     padding: 0.4em;
-    box-shadow: 0 0 .2rem #fff,
-                0 0 .2rem #fff,
-                0 0 2rem #95E4FF,
-                0 0 0.8rem #95E4FF,
-                0 0 2.8rem #95E4FF,
-                inset 0 0 1.3rem #95E4FF;
- 
+
 }
 
 .gridbox-profilepic {
@@ -34,7 +28,7 @@ main {
     grid-column-end: third-column;
     grid-row-start: first-row;
     grid-row-end: first-row;
-
+   
 }
 
 .gridbox-nav {
