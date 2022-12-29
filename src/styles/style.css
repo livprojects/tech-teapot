@@ -16,7 +16,7 @@ main {
     grid-template-rows: [first-row] 8rem [second-row] 6rem [third-row] auto;
     width: 80%;
     margin: 5rem auto;
-    border: 0.2rem solid #fff;
+    /* border: 0.2rem solid #fff; */
     border-radius: 2rem;
     padding: 0.4em;
 
