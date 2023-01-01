@@ -4,6 +4,9 @@
         {
             "enTitle": "This portfolio",
             "frTitle": "Ce portfolio",
+            "company": "Perso",
+            "timeFrameFr": "2021 - 2022",
+            "timeFrameEn": "2021 - 2022",
             "frDescription": "Ce portfolio présente à la fois mon parcours de journaliste et de développeuse full-stack. Il ne comporte qu'un front-end réalisé avec React. Les données (projets, articles) sont stockées dans un json. A terme, lorsque la masse de données le justifiera, ces fichiers seront remplacés par une base de données. L'affichage est structuré en Grid et un système de traduction français-anglais a été mis en place. Une pipeline est en projet pour n'autoriser le déploiement que si le projet compile.",
             "enDescription": "This portfolio is a showcase for my path as both a journalist and a programmer. There is no back-end and the front-end was made with React. Data is currently stored in json files, but if the quantity of projects and articles ever justifies it, I will set up a database to replace those files. The front-end was structured with the Grid system and a French-English translation was set up. I will set up a pipeline on Github to allow deployment only if there is no compilation error.",
             "techStack": ["HTML5", "CSS3", "Javascript", "React", "Grid"],
@@ -13,8 +16,26 @@
             "screenLinks": [""]
         },
         {
+            "enTitle": "Artic - Référentiel produits",
+            "frTitle": "Artic - Référentiel produits",
+            "company": "CGI",
+            "timeFrameFr": "Février 2021 - Janvier 2023",
+            "timeFrameEn": "February 2021 - January 2023",
+            "frDescription": "Je travaille depuis deux ans sur un référentiel produits pour un acteur français de la grande distribution. Le logiciel analyse les données fournisseurs et détecte les incohérences avant le référencement en centrales de distribution. Le projet est constitué d'une interface front-end et de plusieurs briques algorithmiques en back-end, ainsi que d'un batch pour les traitements de gros volumes de données.",
+            "enDescription": "I have been working for two years on a software analyzing and referencing products for a major French retail company. The project is consists in a front-end interface, several algorithmic bricks and a batch process for big data chunks. It analyzes suppliers' data and raises alerts when quality standards are not met, before products can be sent and sold in stores.",
+            "techStack": ["Java 8", "Angular 10", "Typescript", "Spring", "PostgreSQL", "HQL", "Liquibase", "Flyway", "HTML5", "CSS3", "Javascript", "Bootstrap", "Sonar"],
+            "githubLink": "",
+            "deployedLink": "", 
+            "status": "Confidential", 
+            "screenLinks": [""]
+        },
+        
+        {
             "enTitle": "Orizon",
             "frTitle": "Orizon",
+            "company": "O'Clock",
+            "timeFrameFr": "Novembre 2020",
+            "timeFrameEn": "November 2020",
             "frDescription": "Projet de groupe : Orizon est une plateforme interactive à destination des enfants et adolescents entre 10 et 17 ans à propos de la conquête spatiale. Explorez le système solaire avec notre mascotte, Spoutnik !",
             "enDescription": "Group project: Orizon is an informative website (hosted on Heroku) for kids and teenagers aged between 10 and 17 years old, about the upcoming space race. Starting with the Moon, you can browse through all the missions already scheduled.",
             "techStack": ["HTML5", "CSS3", "Javascript", "React", "Redux", "Three.js", "Node.js", "Express.js", "PostgreSQL", "Sequelize"],
@@ -26,6 +47,9 @@
         {
             "enTitle": "Fanfiction generator",
             "frTitle": "Générateur de fanfiction",
+            "company": "Perso",
+            "timeFrameFr": "Janvier 2021",
+            "timeFrameEn": "January 2021",
             "frDescription": "Vous rêvez de retrouver votre adolescence ? Découvrez notre générateur de fanfictions, digne de la meilleure époque de la plateforme de blogs à l'étoile.",
             "enDescription": "A sarcastic tribute to a time of our lives when we thought we were great writers. Prerequisites to enjoy this: speaking French and having spent way too long reading fanfictions when you were a teenager. (Gift for a friend)",
             "techStack": ["HTML5", "CSS3", "Javascript"],
@@ -38,6 +62,9 @@
         {
             "enTitle": "Draw your tiles",
             "frTitle": "Draw your tiles",
+            "company": "O'Clock",
+            "timeFrameFr": "Novembre 2020 - Février 2021",
+            "timeFrameEn": "November 2020 - February 2021",
             "frDescription": "Cliquez sur chaque tuile pour dessiner ce que vous voulez. Entièrement responsive en % et em, sans media queries.",
             "enDescription": "Click on the tiles to draw whatever you want, thanks to this tool coded in Javascript. Fully responsive with % and rem, no media queries.",
             "techStack": ["HTML5", "CSS3", "Javascript"],
@@ -49,6 +76,9 @@
         {
             "enTitle": "Orizon - Quiz",
             "frTitle": "Orizon - Quiz",
+            "company": "O'Clock",
+            "timeFrameFr": "Novembre 2020",
+            "timeFrameEn": "November 2020",
             "frDescription": "Version indépendante du quiz développé par mes soins pour la plateforme Orizon. A été adapté d'une version Redux à une approche React-only. Deux séries de questions sont disponibles actuellement.",
             "enDescription": "A quiz feature from the Orizon group project. I coded this feature myself and switched from a Redux environment (in the Orizon setting) to a slimmer React-only project, just for display purposes. Two quizzes are available for now.",
             "techStack": ["HTML5", "CSS3", "Javascript", "React"],
@@ -60,6 +90,9 @@
         {
             "enTitle": "Sketch book",
             "frTitle": "Cahier de brouillon",
+            "company": "Perso",
+            "timeFrameFr": "En cours",
+            "timeFrameEn": "Work in progress",
             "frDescription": "Une multitude de scripts et d'exercices de découverte de divers langages informatiques.",
             "enDescription": "A multitude of coding exercises in several languages, for the sole purpose of experimentation.",
             "techStack": ["C", "Java"],
@@ -71,6 +104,9 @@
         {
             "enTitle": "Ebooks",
             "frTitle": "Ebooks",
+            "company": "IPI/M2i",
+            "timeFrameFr": "Janvier 2021 - Février 2021",
+            "timeFrameEn": "January 2021 - February 2021",
             "frDescription": "Ebooks est un projet étudiant à deux codé en Java (Spring) et JSP. C'est une plateforme permettant à l'utilisateur de suivre la progression des histoires qu'il a écrites. Elle n'existe qu'en version locale, via Github.",
             "enDescription": "Ebooks is a student project coded in Java (Spring). We were two to develop this platform enabling the user to keep track of the stories they wrote. It exists only as a local repository.",
             "techStack": ["Java", "Spring WebMVC", "Spring DATA-JPA", "Hibernate", "JSP", "HTML5", "CSS3"],
@@ -82,6 +118,9 @@
         {
             "enTitle": "Magic Eight Ball",
             "frTitle": "Magic Eight Ball",
+            "company": "Perso",
+            "timeFrameFr": "Septembre 2020 - Janvier 2021",
+            "timeFrameEn": "September 2020 - January 2021",
             "frDescription": "N'avez-vous jamais rêvé de connaître votre avenir ? Cette boule magique vous apporte les réponses à vos plus secrètes aspirations.",
             "enDescription": "Have you ever wanted to know what your fate will be? This is a tribute to magic eight balls.",
             "techStack": ["HTML5", "CSS3", "Javascript"],
@@ -93,6 +132,9 @@
         {
             "enTitle": "Back to basics",
             "frTitle": "Retour aux sources",
+            "company": "Perso",
+            "timeFrameFr": "Mars 2020 / Septembre 2020",
+            "timeFrameEn": "March 2020 / September 2020",
             "frDescription": "A des années-lumière du Web 3.0, mon premier portfolio basique en HTML5 et CSS3. Utilise CSS Grid.",
             "enDescription": "A very basic portfolio in HTML and CSS, while a more ambitious portfolio is in the making. Uses CSS Grid.",
             "techStack": ["HTML5", "CSS3", "Javascript"],
@@ -104,6 +146,9 @@
         {
             "enTitle": "Warlock Holmes",
             "frTitle": "Warlock Holmes",
+            "company": "Perso",
+            "timeFrameFr": "Octobre 2021 - Novembre 2021",
+            "timeFrameEn": "October 2021 - November 2021",
             "frDescription": "Le Cluedo, mais avec des monstres. Un projet étudiant en Java(Spring)/Vue.js en friches.",
             "enDescription": "A monster-ized version of the classic game of Cluedo. A Java(Spring)/Vue.js student project on a forever pause.",
             "techStack": ["HTML5", "CSS3", "Javascript", "Vue.js", "Java", "Spring"],
@@ -115,6 +160,9 @@
         {
             "enTitle": "Dinos on edge",
             "frTitle": "Des dinos au bord de la rupture",
+            "company": "CS50",
+            "timeFrameFr": "Mai 2020",
+            "timeFrameEn": "May 2020",
             "frDescription": "Une expérimentation de jeu avec Scracth pour un exercice du cours CS50. Vous êtes un dino et vous devez éviter les météorites.",
             "enDescription": "In this game, you control a dinosaur with the arrows of your keyboard and your goal is to avoid meteors falling on Earth. It's part of a problem set designed by Harvard's CS50.",
             "techStack": ["Scratch"],
