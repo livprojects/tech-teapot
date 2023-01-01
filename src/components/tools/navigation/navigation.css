@@ -25,6 +25,10 @@
     text-decoration: none;
 }
 
+.gridbox-nav-ul > a:hover {
+    font-weight: 800;
+}
+
 .gridbox-nav-ul {
     display: flex;
     justify-content: space-around;

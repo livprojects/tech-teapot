@@ -1,7 +1,7 @@
 {
   "home": {
     "baseline": "Bienvenue", 
-    "welcome-text": "Je m'appelle Liv Audigane. J'ai {{profile.age}} ans et je suis développeuse full-stack depuis plus de {{profile.experience}} ans. Je travaille actuellement avec Java 8 et Angular 10. J'ai également été formée pendant plusieurs mois sur React et Node.js. J'ai aussi un master en sciences politiques et journalisme, ainsi qu'une licence en langues étrangères appliquées (Anglais/Allemand/Russe). J'ai travaillé dans des rédactions pendant six ans. Quels que soient mon métier et mes missions actuelles, je suis passionnée par l'impact des technologies dans nos vies quotidiennes, par les nouveaux formats médias et la découverte et l'échange avec d'autres cultures. N'hésitez pas à m'envoyer un message, que ce soit pour une mission tech ou journalistique.",
+    "welcome-text": "Je m'appelle Liv Audigane, j'ai {{profile.age}} ans et ceci est mon portfolio. Je travaille comme développeuse full-stack depuis {{profile.experience}} ans, actuellement sur une stack technique Java 8 et Angular 10. J'ai également été formée pendant plusieurs mois sur React et Node.js. \n \n Je suis aussi diplômée d'un master en sciences politiques et journalisme, ainsi qu'une licence en langues étrangères appliquées (Anglais/Allemand/Russe) et J'ai travaillé dans des rédactions pendant six ans. \n \n Je suis passionnée par l'impact des technologies dans nos vies quotidiennes, par les nouveaux formats médias et la découverte et l'échange avec d'autres cultures. N'hésitez pas à m'envoyer un message, que ce soit pour une mission tech ou journalistique.",
     "laboratory-title": "Laboratoire",
     "archives-title": "Archives", 
     "home-title": "Accueil"    

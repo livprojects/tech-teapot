@@ -12,17 +12,16 @@ const TranslationToggle = ({t}) => {
       }
     
 return(
-    <div className="left-box-toggle">
-        <div className="language-toggle">
-            <button className="language-toggle-icon" onClick={() => changeLanguage('fr')}>
-                <img alt="Eiffel Tower icon by freepik" src={EiffelTower}></img>
-                <span>FR</span>
-            </button>
-            <button className="language-toggle-icon" onClick={() => changeLanguage('en')}>
-                <img alt="Big Ben icon by wanicon" id="bigbenpic" src={BigBen}></img>
-                <span>EN</span>
-            </button>
-        </div>
+    
+    <div className="language-toggle">
+        <button className="language-toggle-icon" onClick={() => changeLanguage('fr')}>
+            <img alt="Eiffel Tower icon by freepik" src={EiffelTower}></img>
+            <span>FR</span>
+        </button>
+        <button className="language-toggle-icon" onClick={() => changeLanguage('en')}>
+            <img alt="Big Ben icon by wanicon" id="bigbenpic" src={BigBen}></img>
+            <span>EN</span>
+        </button>
     </div>
 )
 

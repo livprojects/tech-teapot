@@ -20,7 +20,6 @@ return (
             <ul className='gridbox-shortcuts-nav-ul'>
                 <li><a href="https://www.linkedin.com/in/liv-audigane/">Linkedin</a></li>
                 <li><a href="https://github.com/livprojects">Github</a></li>
-                <li>Twitter</li>
             </ul>
         </div>
     </nav>

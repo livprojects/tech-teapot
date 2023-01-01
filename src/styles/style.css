@@ -1,3 +1,7 @@
+#root {
+    white-space: pre-line;
+}
+
 body {
     font-family: Arimo, Helvetica, sans-serif;
     background-color: #070406;
@@ -13,7 +17,7 @@ main {
 
     display: grid;
     grid-template-columns: [first-column] 15% [second-column] 25% [third-column] 40% [fourth-column] auto;
-    grid-template-rows: [first-row] 8rem [second-row] 6rem [third-row] auto;
+    grid-template-rows: [first-row] 4rem [second-row] 8rem [third-row] 6rem [fourth-row] auto;
     width: 80%;
     margin: 5rem auto;
     /* border: 0.2rem solid #fff; */
@@ -22,22 +26,43 @@ main {
 
 }
 
+
 .gridbox-profilepic {
-
-    grid-column-start: second-column;
-    grid-column-end: third-column;
-    grid-row-start: first-row;
-    grid-row-end: first-row;
-   
-}
-
-.gridbox-nav {
-
 
     grid-column-start: second-column;
     grid-column-end: third-column;
     grid-row-start: second-row;
     grid-row-end: second-row;
+   
+}
+
+#baseline {
+    display: flex;
+    font-family: 'Kompot Display Demo', 'Times New Roman', Times, serif;
+    font-size: 4rem;
+    color: #A0E4FF;
+    margin-bottom: 2rem;
+
+}
+
+.sub-gridbox {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    grid-row-start: second-row;
+    grid-row-end: second-row;
+    grid-column-start: third-column;
+    grid-column-end: third-column;
+}
+
+
+.gridbox-nav {
+    grid-column-start: second-column;
+    grid-column-end: third-column;
+    grid-row-start: third-row;
+    grid-row-end: third-row;
 
   
 }
@@ -46,8 +71,8 @@ main {
 
     grid-column-start: second-column;
     grid-column-end: fourth-column;
-    grid-row-start: third-row;
-    grid-row-end: third-row;
+    grid-row-start: fourth-row;
+    grid-row-end: fourth-row;
     z-index: 10;
 
 }
@@ -57,8 +82,8 @@ main {
     /* Grid proprties*/
     grid-column-start: first-column;
     grid-column-end: first-column;
-    grid-row-start: third-row;
-    grid-row-end: third-row;
+    grid-row-start: fourth-row;
+    grid-row-end: fourth-row;
 
 }
 
@@ -70,6 +95,8 @@ main {
     margin-bottom: 0.6rem;
     text-align: center;
 }
+
+
 
 
 /* Fonts imports */

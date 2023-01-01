@@ -1,13 +1,6 @@
-.left-box-toggle {
-    width: 100vw;
-    display: flex;
-    justify-content: flex-end;
-}
-
 .language-toggle {
     display: flex;
     width: 10rem;
-    margin: 4rem 10rem auto auto;
     align-items: baseline;
 }   
 
@@ -15,7 +8,18 @@
     color: #A0E4FF;
     font-family: 'Calps Sans', 'Arial', sans-serif;
     font-weight: 600;
-}   
+    font-size: 1.1rem;
+    -webkit-transition: font-size 1s ease-in-out;
+    -moz-transition: font-size 1s ease-in-out;
+    -o-transition: font-size 1s ease-in-out;
+    transition: font-size 1s ease-in-out;
+}  
+
+.language-toggle span:hover {
+    border-bottom: 3px solid #7E77AA;
+    font-size: 1.3rem;
+    cursor: pointer;
+}
 
 .language-toggle-icon {
     padding: 0.8rem;
