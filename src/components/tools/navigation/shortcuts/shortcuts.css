@@ -32,6 +32,8 @@
 }
 
 .gridbox-shortcuts-nav-button {
+    margin: -0.8rem 0 -0.8rem -0.5rem;
+    padding-bottom: 0.5rem;
     transform: rotate(-90deg);
     font-family: 'Calps Sans', Arial, sans-serif;
     font-size: 1.5rem;
@@ -49,3 +51,49 @@
     color: #A0E4FF;
     cursor: pointer;
 }
+
+.gridbox-shortcuts-nav-icons {
+    display: none;
+}
+
+
+@media (max-width:800px) {
+    .gridbox-shortcuts-nav-links {
+        display: none;
+    }
+    .gridbox-shortcuts-nav-icons {
+        display: flex;
+        flex-direction: column;
+        margin-left: -3rem;
+    }
+
+    .social-icons {
+        margin: 0.5rem;
+        width: 2rem;
+        cursor: pointer;
+    }
+
+    .img-wrapper {
+        display: flex;
+        justify-items: center;
+        align-items: center;
+    }
+
+    .img-wrapper a {
+        transition: .3s ease-in-out;
+        display: flex;
+        margin: auto;
+    }
+
+    .img-wrapper a:hover {
+        background-color: white;
+        border-radius: 15px;
+    } 
+
+    .gridbox-shortcuts-nav {
+        display: none;
+    }
+    
+  }
+  
+  

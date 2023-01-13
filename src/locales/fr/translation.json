@@ -1,7 +1,7 @@
 {
   "home": {
     "baseline": "Bienvenue", 
-    "welcome-text": "Je m'appelle Liv Audigane, j'ai {{profile.age}} ans et ceci est mon portfolio. Je travaille comme développeuse full-stack depuis {{profile.experience}} ans, actuellement sur une stack technique Java 8 et Angular 10. J'ai également été formée pendant plusieurs mois sur React et Node.js. \n \n Je suis aussi diplômée d'un master en sciences politiques et journalisme, ainsi qu'une licence en langues étrangères appliquées (Anglais/Allemand/Russe) et J'ai travaillé dans des rédactions pendant six ans. \n \n Je suis passionnée par l'impact des technologies dans nos vies quotidiennes, par les nouveaux formats médias et la découverte et l'échange avec d'autres cultures. N'hésitez pas à m'envoyer un message, que ce soit pour une mission tech ou journalistique.",
+    "welcome-text": "Je m'appelle Liv Audigane, j'ai {{profile.age}} ans et ceci est mon portfolio. Je travaille comme développeuse full-stack depuis {{profile.experience}} ans, actuellement sur une stack technique Java 8 et Angular 10. J'ai également été formée pendant plusieurs mois sur React et Node.js ainsi qu'à la chefferie de projet. \n \n Je suis aussi diplômée d'un master en sciences politiques et journalisme, ainsi qu'une licence en langues étrangères appliquées (Anglais/Allemand/Russe) et J'ai travaillé dans des rédactions pendant six ans. \n \n Je suis passionnée par l'impact des technologies dans nos vies quotidiennes, par les nouveaux formats médias et la découverte et l'échange avec d'autres cultures. N'hésitez pas à m'envoyer un message, que ce soit pour une mission tech ou journalistique.",
     "laboratory-title": "Laboratoire",
     "archives-title": "Archives", 
     "home-title": "Accueil"    
@@ -11,7 +11,9 @@
     "archives-title": "Journalisme", 
     "home-title": "Accueil",
     "lifeline-title": "Parcours",
-    "more-links": "Réseaux"
+    "more-links": "Réseaux",
+    "linkedin": "Lien menant vers le profil Linkedin représenté par une icône",
+    "github": "Lien menant vers le profil Github représenté par une icône"
   },
   "archives": {
     "welcome": "Cette section est encore en travaux. Plus d'informations sur : "

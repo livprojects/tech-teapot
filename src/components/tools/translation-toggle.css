@@ -34,3 +34,10 @@ img {
 #bigbenpic {
     width: 120%;
 }
+
+@media (max-width:800px) {
+
+    .language-toggle {
+        margin-bottom: 3rem;
+    }
+}

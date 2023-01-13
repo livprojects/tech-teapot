@@ -17,7 +17,7 @@ main {
 
     display: grid;
     grid-template-columns: [first-column] 15% [second-column] 25% [third-column] 40% [fourth-column] auto;
-    grid-template-rows: [first-row] 4rem [second-row] 8rem [third-row] 6rem [fourth-row] auto;
+    grid-template-rows: [first-row] 4rem [second-row] 8rem [third-row] auto [fourth-row] auto;
     width: 80%;
     margin: 5rem auto;
     /* border: 0.2rem solid #fff; */
@@ -77,6 +77,8 @@ main {
 
 }
 
+
+
 .gridbox-shortcuts-nav {
 
     /* Grid proprties*/
@@ -87,6 +89,7 @@ main {
 
 }
 
+
 .show {
     transform: translateX(0%);
 }
@@ -96,7 +99,62 @@ main {
     text-align: center;
 }
 
+/* Reponsive */
 
+
+@media (max-width:800px) {
+
+    .gridbox {
+        grid-template-columns: [first-column] 25% [second-column] auto [third-column] 40% [fourth-column] auto;
+        grid-template-rows: [first-row] 4rem [second-row] 8rem [third-row] 12rem [fourth-row] auto [fifth-row] auto [sixth-row] auto;
+    }
+    .gridbox-nav {
+        grid-column-start: second-column;
+        grid-column-end: third-column;
+        grid-row-start: fourth-row;
+        grid-row-end: fifth-row;
+        margin-bottom: 1rem;
+      
+    }
+    
+    .gridbox-center {
+    
+        grid-column-start: second-column;
+        grid-column-end: third-column;
+        grid-row-start: fifth-row;
+        grid-row-end: sixth-row;
+        z-index: 10;    
+    }
+
+    .gridbox-shortcuts-nav-icons {
+        
+        grid-column-start: first-column;
+        grid-column-end: first-column;
+        grid-row-start: fifth-row;
+        grid-row-end: fifth-row;      
+       
+    }
+
+    .gridbox-profilepic {
+
+        margin-top: 1rem;
+        grid-column-start: second-column;
+        grid-column-end: third-column;
+        grid-row-start: third-row;
+        grid-row-end: fourth-row;
+       
+    }
+
+    
+    .sub-gridbox {
+
+
+        grid-row-start: second-row;
+        grid-row-end: second-row;
+        grid-column-start: second-column;
+        grid-column-end: third-column;
+    }
+}
 
 
 /* Fonts imports */

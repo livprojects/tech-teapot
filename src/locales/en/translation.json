@@ -1,14 +1,17 @@
   {
     "home": {
       "baseline": "Welcome", 
-      "welcome-text": "My name is Liv Audigane and this is my portfolio. I am a {{profile.age}}-year-old odd mix of a full-stack developer and a journalist. \n \n I have {{profile.experience}} years of experience in full-stack developement and am currently working on a Java 8 and Angular 10 tech stack. I have also been extensively trained in Javascript, mostly with React and Node.js. \n \n I also have a master's degree in journalism and political science and another in foreign languages (English, German and Russian) and have worked as a reporter for six years. I am passionate about the impact of technology and the way it shapes our daily lives, new forms of storytelling and foreign cultures. Whether it is about technology or journalism, feel free to send a message."
+      "welcome-text": "My name is Liv Audigane and this is my portfolio. I am a {{profile.age}}-year-old odd mix of a full-stack developer and a journalist. \n \n I have {{profile.experience}} years of experience in full-stack developement and am currently working on a Java 8 and Angular 10 tech stack. I have also been extensively trained in Javascript, mostly with React and Node.js, and in project management. \n \n I also have a master's degree in journalism and political science and a BA in foreign languages (English, German and Russian) and have worked as a reporter for six years. I am passionate about the impact of technology and the way it shapes our daily lives, new forms of storytelling and foreign cultures. Whether it is about technology or journalism, feel free to send a message."
     }, 
     "navigation": {
       "laboratory-title": "Programming",
       "archives-title": "Journalism",
       "home-title": "Home", 
       "lifeline-title": "Lifeline",
-      "more-links": "Socials"
+      "more-links": "Socials", 
+      "linkedin": "Icon linking to Linkedin profile",
+      "github": "Icon linking to Github profile"
+
     },
     "archives": {
       "welcome": "This section is still a work in progress. You will find more information here : "
@@ -18,7 +21,7 @@
         "title": "Tech stack",
         "everyday": "What I work with everyday:", 
         "training": "I've been extensively trained in:", 
-        "bonus": "I have already played with:"
+        "bonus": "I would like to get better at:"
       }, 
       "project": {
         "title": "Title",
