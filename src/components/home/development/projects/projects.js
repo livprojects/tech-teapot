@@ -21,7 +21,7 @@ const Projects = ({t}) => {
 
             <div className="tech-stack-list">
                 <div className="tech-stack-item">
-                    <p>{t('laboratory.tech-stack-text.everyday')}</p>
+                    <div className="stack-item"><span>{t('laboratory.tech-stack-text.everyday')}</span></div>
                     {
                         dailyStack.map((tech, index) =>   
                             {
@@ -39,7 +39,7 @@ const Projects = ({t}) => {
                     }
                 </div>
                 <div className="tech-stack-item">
-                    <p>{t('laboratory.tech-stack-text.training')}</p>
+                    <div className="stack-item"><span>{t('laboratory.tech-stack-text.training')}</span></div>
                     {
                         trainingStack.map((tech, index) =>   
                             {
@@ -57,7 +57,7 @@ const Projects = ({t}) => {
                     }
                 </div>
                 <div className="tech-stack-item">
-                    <p>{t('laboratory.tech-stack-text.bonus')}</p>
+                    <div className="stack-item"><span>{t('laboratory.tech-stack-text.bonus')}</span></div>
                     {
                         bonusStack.map((tech, index) =>   
                             {

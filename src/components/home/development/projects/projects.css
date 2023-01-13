@@ -22,6 +22,18 @@ body {
     margin-top: 1rem;
 }
 
+
+
+.stack-item ::after {
+    content: '';
+    border-bottom: 3px solid rgb(146, 225, 251);
+    width: 13rem;
+    display: block;
+    margin-bottom: 0.5rem;
+
+}
+
+
 .projects {
     display: flex;
     width: 100%;
