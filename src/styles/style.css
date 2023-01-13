@@ -17,7 +17,7 @@ main {
 
     display: grid;
     grid-template-columns: [first-column] 15% [second-column] 25% [third-column] 40% [fourth-column] auto;
-    grid-template-rows: [first-row] 4rem [second-row] 8rem [third-row] auto [fourth-row] auto;
+    grid-template-rows: [first-row] 4rem [second-row] 10rem [third-row] auto [fourth-row] auto;
     width: 80%;
     margin: 5rem auto;
     /* border: 0.2rem solid #fff; */

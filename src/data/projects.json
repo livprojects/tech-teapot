@@ -2,6 +2,20 @@
     "projects":
     [
         {
+            "enTitle": "Movie picker",
+            "frTitle": "Movie picker",
+            "company": "Test",
+            "timeFrameFr": "Janvier 2023",
+            "timeFrameEn": "January 2023",
+            "frDescription": "Ce test technique a été réalisé dans le cadre d'une candidature à une nouvelle mission pour un acteur majeur des médias français. Il a été codé en React 18. Il est déployé sur Netlify et plusieurs pipelines assurent qu'il n'y a pas de problème de build au moment de merger les pull requests.",
+            "enDescription": "This project was a technical test to get into a new mission for a major French media company. It uses React 18 ans its quality was proven by several pipelines on Github, checking tests and build before merging any pull request. It is deployed on Netlify.",
+            "techStack": ["HTML5", "CSS3", "Javascript", "React", "Axios"],
+            "githubLink": "https://github.com/livprojects/movie-picker",
+            "deployedLink": "https://your-movie-picker.netlify.app/", 
+            "status": "Complete", 
+            "screenLinks": [""]
+        },
+        {
             "enTitle": "This portfolio",
             "frTitle": "Ce portfolio",
             "company": "Perso",
