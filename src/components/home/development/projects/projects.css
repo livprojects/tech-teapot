@@ -59,9 +59,9 @@ body {
     box-shadow: 3px 4px 7px 1px rgba(160,228,255,0.87);
 }
 
-@media (min-width:800px) {
+@media (min-width:1000px) {
     .project-details {
-        width: 80%;
+        width: 40%;
     }
 }
 
