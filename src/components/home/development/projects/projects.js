@@ -15,14 +15,13 @@ const Projects = ({t}) => {
     const getCurrentLng = i18n.language || window.localStorage.i18nextLng || '';
 
     return (
-        <div className= "laboratory">
-
+            <>
             <h2 className="tech-stack-title">{t('laboratory.tech-stack-text.title')}</h2>
 
             <div className="tech-stack-list">
-                <div className="tech-stack-item" id="first-p">
+                <div className="tech-stack-item">
                     <div className="stack-headline"><span>{t('laboratory.tech-stack-text.everyday')}</span></div>
-                    <div className="stack-item-line">
+                    <div className="stack-item-row">
                         {
                             dailyStack.map((tech, index) =>   
                                 {
@@ -38,9 +37,9 @@ const Projects = ({t}) => {
                         }
                     </div>
                 </div>
-                <div className="tech-stack-item" id="second-p">
+                <div className="tech-stack-item">
                     <div className="stack-headline"><span>{t('laboratory.tech-stack-text.training')}</span></div>
-                    <div className="stack-item-line">
+                    <div className="stack-item-row">
                         {
                             trainingStack.map((tech, index) =>   
                                 {
@@ -56,9 +55,9 @@ const Projects = ({t}) => {
                         }
                     </div>
                 </div>
-                <div className="tech-stack-item" id="third-p">
+                <div className="tech-stack-item">
                     <div className="stack-headline"><span>{t('laboratory.tech-stack-text.bonus')}</span></div>
-                    <div className="stack-item-line">
+                    <div className="stack-item-row">
                         {
                             bonusStack.map((tech, index) =>   
                                 {
@@ -106,7 +105,8 @@ const Projects = ({t}) => {
                     
                 }
             </div>
-        </div>
+        </>
+
     
     ) 
 

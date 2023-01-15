@@ -1,11 +1,3 @@
-body {
-    color: white;
-}
-
-.laboratory {
-    max-width: 100%;
-}
-
 .tech-stack-title {
     font-family: 'Kompot Display Demo', 'Times New Roman', serif;
     font-size: 3rem;
@@ -27,7 +19,6 @@ body {
 }
 
 .stack-headline {
-
     text-align: center;
 }
 
@@ -36,10 +27,9 @@ body {
     border-bottom: 3px solid rgb(146, 225, 251);
     width: 20rem;
     display: block;
-    margin-bottom: 0.5rem;
+    margin-bottom: 1rem;
 
 }
-
 
 .projects {
     display: flex;
@@ -51,7 +41,7 @@ body {
 
     display: flex;
     flex-direction: column;
-    width: 80%;
+    width: 90%;
     margin: 1rem;
     /* background-color: #7E77AA; */
     padding: 1rem;
@@ -59,16 +49,11 @@ body {
     box-shadow: 3px 4px 7px 1px rgba(160,228,255,0.87);
 }
 
-@media (min-width:1000px) {
-    .project-details {
-        width: 40%;
-    }
-}
 
 .title {
     display: block;
     text-transform: uppercase;
-    margin: 0.5rem auto;
+    margin: 0.5rem auto 1rem 0;
     font-family: 'Calps Sans', sans-serif;
     color:  rgba(160,228,255,0.87);
     font-weight: 400;
@@ -79,12 +64,12 @@ body {
     line-height: 120%;
 }
 
-.stack-item-line {
+.stack-item-row {
+    width: 70%;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content:center;
-    justify-items: center;
     align-items: center;
 }
 
@@ -97,4 +82,11 @@ body {
 
 .stack-item:hover{
     background-color:  rgba(160,228,255,0.87);
+}
+
+
+@media (min-width:1000px) {
+    .project-details {
+        width: 45%;
+    }
 }

@@ -14,7 +14,6 @@ import Journalism from './journalism/portfolio-articles';
 import Welcome from './welcome/welcome';
 
 import Navigation from '../tools/navigation/navigation';
-import Shortcuts from '../tools/navigation/shortcuts/shortcuts';
 import Toggle from '../tools/translation-toggle';
 import Lifeline from './lifeline/lifeline'
 import { withNamespaces } from 'react-i18next';
@@ -29,19 +28,21 @@ activeComponent = location.pathname;
 
   return (
     <main>  
-      <div className="gridbox">
-        <div className="sub-gridbox">
-          <div id="baseline">{t('home.baseline')}</div>
-          <Toggle t={t}></Toggle>
+      <div className="main-container">
+        <div className="header">
+          <ProfilePic></ProfilePic>
+          <div className="header-right">
+            <div id="baseline">{t('home.baseline')}</div>
+            <Toggle t={t}></Toggle>
+          </div>
+        </div>    
+
+        <div className="flex-navigation">
+          <Navigation t={t} activeComponent={activeComponent}></Navigation>
         </div>
 
-        <ProfilePic></ProfilePic>        
-        <Shortcuts t={t}></Shortcuts>
-
-        <Navigation t={t} activeComponent={activeComponent}></Navigation>
-
         <Switch>
-        <Route exact path="/">
+          <Route exact path="/">
             <Welcome t={t}/>
           </Route>
           <Route path="/programming">

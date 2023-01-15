@@ -1,6 +1,11 @@
-.gridbox-lab {
+.laboratory {
    background-color: #292B40;
    color: rgb(238, 248, 255);
    width: 90%;
    padding: 2rem;
+
+   display: flex;
+   flex-direction: column;
+   justify-items: center;
+   align-items: center;
 }

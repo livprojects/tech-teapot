@@ -5,7 +5,7 @@ import './programming.css';
 const Programming = ({t}) => {
 
     return (
-        <div className="gridbox-center gridbox-lab">
+        <div className="laboratory">
         <Projects t={t}></Projects>
         </div>
     ) 

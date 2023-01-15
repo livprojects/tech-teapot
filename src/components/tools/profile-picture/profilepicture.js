@@ -4,8 +4,8 @@ import './profilepicture.css';
 
 const ProfilePic = () => {
 return (
-    <div className='gridbox-profilepic'>
-         <img className='gridbox-profilepic-img'src={pic} alt='Liv Audigane'></img> 
+    <div className='profilepic'>
+         <img className='profilepic-img'src={pic} alt='Liv Audigane'></img> 
     </div>
 )
 }

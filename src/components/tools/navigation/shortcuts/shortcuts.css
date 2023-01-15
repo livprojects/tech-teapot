@@ -1,98 +1,42 @@
-
-.gridbox-shortcuts-nav {
-
-    background-color: #404363;
-    height: 9em;
+.icons {
     display: flex;
-    align-items: center;
-   
-    /*Sliding properties*/
-    z-index: 1;
-    transform: translateX(75%);
-    transition: .3s ease-out;
-
-    /* clip-path: polygon(5.25% 41%, 96.75% 0%, 96.75% 52.27%, 5.25% 95%);  */
-
-    border-radius: 25px 0 0 25px;
-
 }
 
-.show {
-    transform: translateX(5%);
-}
-.gridbox-shortcuts-nav-ul {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
-    align-items: center;
-}
-.gridbox-shortcuts-nav ul li {
-    margin-bottom: 0.6rem;
-    text-align: center;
+
+.gridbox-shortcuts-nav-links {
+    display: none;
+    margin-left: 3rem;
 }
 
-.gridbox-shortcuts-nav-button {
-    margin: -0.8rem 0 -0.8rem -0.5rem;
-    padding-bottom: 0.5rem;
-    transform: rotate(-90deg);
-    font-family: 'Calps Sans', Arial, sans-serif;
-    font-size: 1.5rem;
-    font-weight: 400;
-    color: #A0E4FF;
-}
-
-.gridbox-shortcuts-nav ul li > a {
-    color: #ffffff;
-    text-decoration: none;
-}
-
-.gridbox-shortcuts-nav ul li > a:hover  {
-    font-weight: 800;
-    color: #A0E4FF;
+.social-icons {
+    margin: 0.5rem;
+    width: 2rem;
     cursor: pointer;
 }
 
-.gridbox-shortcuts-nav-icons {
-    display: none;
+
+.img-wrapper {
+    display: flex;
+    justify-items: center;
+    align-items: center;
 }
 
+.img-wrapper a {
+    transition: .3s ease-in-out;
+    display: flex;
+    margin: auto;
+}
 
-@media (max-width:800px) {
-    .gridbox-shortcuts-nav-links {
-        display: none;
-    }
-    .gridbox-shortcuts-nav-icons {
-        display: flex;
-        flex-direction: column;
-    }
+.img-wrapper a:hover {
+    background-color: white;
+    border-radius: 15px;
+} 
 
-    .social-icons {
-        margin: 0.5rem;
-        width: 2rem;
-        cursor: pointer;
-    }
 
-    .img-wrapper {
-        display: flex;
-        justify-items: center;
-        align-items: center;
-    }
 
-    .img-wrapper a {
-        transition: .3s ease-in-out;
-        display: flex;
-        margin: auto;
+@media (min-width:800px) {
+    .icons {
+        margin-left: 2rem;
     }
-
-    .img-wrapper a:hover {
-        background-color: white;
-        border-radius: 15px;
-    } 
-
-    .gridbox-shortcuts-nav {
-        display: none;
-    }
-    
-  }
-  
+}
   

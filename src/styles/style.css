@@ -1,3 +1,8 @@
+a {
+    font-weight: 800;
+    color: #7E77AA;
+}
+
 #root {
     white-space: pre-line;
 }
@@ -6,35 +11,30 @@ body {
     font-family: Arimo, Helvetica, sans-serif;
     background-color: #070406;
     width: 100vw;
-    font-size: 0.9em;
     line-height: 1.2rem;
 }
 
 main {
     width: 100%;
 }
-.gridbox {
+.main-container {
 
-    display: grid;
-    grid-template-columns: [first-column] 15% [second-column] 25% [third-column] 40% [fourth-column] auto;
-    grid-template-rows: [first-row] 4rem [second-row] 10rem [third-row] auto [fourth-row] auto;
+    display: flex;
+    flex-direction: column;
     width: 80%;
     margin: 5rem auto;
-    /* border: 0.2rem solid #fff; */
     border-radius: 2rem;
     padding: 0.4em;
 
 }
 
-
-.gridbox-profilepic {
-
-    grid-column-start: second-column;
-    grid-column-end: third-column;
-    grid-row-start: second-row;
-    grid-row-end: second-row;
-   
+.header {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
 }
+
 
 #baseline {
     display: flex;
@@ -45,119 +45,14 @@ main {
 
 }
 
-.sub-gridbox {
+.header-right {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 
-    grid-row-start: second-row;
-    grid-row-end: second-row;
-    grid-column-start: third-column;
-    grid-column-end: third-column;
 }
 
-
-.gridbox-nav {
-    grid-column-start: second-column;
-    grid-column-end: third-column;
-    grid-row-start: third-row;
-    grid-row-end: third-row;
-
-  
-}
-
-.gridbox-center {
-
-    grid-column-start: second-column;
-    grid-column-end: fourth-column;
-    grid-row-start: fourth-row;
-    grid-row-end: fourth-row;
-    z-index: 10;
-
-}
-
-
-
-.gridbox-shortcuts-nav {
-
-    /* Grid proprties*/
-    grid-column-start: first-column;
-    grid-column-end: first-column;
-    grid-row-start: fourth-row;
-    grid-row-end: fourth-row;
-
-}
-
-
-.show {
-    transform: translateX(0%);
-}
-
-.gridbox-shortcuts-nav ul li {
-    margin-bottom: 0.6rem;
-    text-align: center;
-}
-
-/* Reponsive */
-
-
-@media (max-width:800px) {
-
-    .gridbox {
-        grid-template-columns: [first-column] 25% [second-column] auto [third-column] 40% [fourth-column] auto;
-        grid-template-rows: [first-row] 4rem [second-row] 8rem [third-row] 12rem [fourth-row] auto [fifth-row] auto [sixth-row] auto;
-    }
-    .gridbox-nav {
-        grid-column-start: second-column;
-        grid-column-end: third-column;
-        grid-row-start: fourth-row;
-        grid-row-end: fifth-row;
-        margin-bottom: 1rem;
-        justify-self: end;
-      
-    }
-    
-    .gridbox-center {
-    
-        grid-column-start: first-column;
-        grid-column-end: third-column;
-        grid-row-start: fifth-row;
-        grid-row-end: sixth-row;
-        z-index: 10;    
-        margin-left: 3rem;
-    }
-
-    .gridbox-shortcuts-nav-icons {
-        
-        grid-column-start: second-column;
-        grid-column-end: third-column;
-        grid-row-start: fourth-row;
-        grid-row-end: fifth-row;      
-        justify-self: start;
-       
-    }
-
-    .gridbox-profilepic {
-
-        margin-top: 1rem;
-        grid-column-start: second-column;
-        grid-column-end: third-column;
-        grid-row-start: third-row;
-        grid-row-end: fourth-row;
-       
-    }
-
-    
-    .sub-gridbox {
-
-
-        grid-row-start: second-row;
-        grid-row-end: second-row;
-        grid-column-start: second-column;
-        grid-column-end: third-column;
-    }
-}
 
 
 /* Fonts imports */

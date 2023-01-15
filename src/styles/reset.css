@@ -20,7 +20,6 @@ time, mark, audio, video {
 	padding: 0;
 	border: 0;
 	font-size: 100%;
-	font: inherit;
 	vertical-align: baseline;
 }
 /* HTML5 display-role reset for older browsers */
@@ -55,4 +54,8 @@ button {
     font-weight: inherit;
     line-height: inherit;
     padding: 0;
+}
+
+a {
+	text-decoration: none;
 }
