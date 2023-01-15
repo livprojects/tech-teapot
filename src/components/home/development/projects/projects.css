@@ -9,6 +9,7 @@ body {
 .tech-stack-title {
     font-family: 'Kompot Display Demo', 'Times New Roman', serif;
     font-size: 3rem;
+    margin-bottom: 1rem;
 
 }
 
@@ -20,14 +21,20 @@ body {
 
 .tech-stack-item {
     margin-top: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
+.stack-headline {
 
+    text-align: center;
+}
 
-.stack-item ::after {
+.stack-headline ::after {
     content: '';
     border-bottom: 3px solid rgb(146, 225, 251);
-    width: 13rem;
+    width: 20rem;
     display: block;
     margin-bottom: 0.5rem;
 
@@ -54,7 +61,7 @@ body {
 
 @media (min-width:800px) {
     .project-details {
-        width: 40%;
+        width: 80%;
     }
 }
 
@@ -70,4 +77,24 @@ body {
 
 .project-details > span {
     line-height: 120%;
+}
+
+.stack-item-line {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content:center;
+    justify-items: center;
+    align-items: center;
+}
+
+.stack-item {
+    padding: 0.2rem;
+    background-color: #7E77AA;
+    margin: 0.2rem 1rem 0 0;
+    border-radius: 10px;
+}
+
+.stack-item:hover{
+    background-color:  rgba(160,228,255,0.87);
 }

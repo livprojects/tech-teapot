@@ -64,7 +64,6 @@
     .gridbox-shortcuts-nav-icons {
         display: flex;
         flex-direction: column;
-        margin-left: -3rem;
     }
 
     .social-icons {

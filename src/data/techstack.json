@@ -1,6 +1,6 @@
 {
     "tech-stack": {
-        "everyday": ["Java", "HTML5", "CSS3", "PosgtreSQL", "Spring", "Angular 11", "Typescript", "Maven", "Bootstrap", "PgAdmin", "Hibernate (ORM)", "HQL", "Git", "Liquibase", "Flyway"], 
+        "everyday": ["Java", "HTML5", "CSS3", "PosgtreSQL", "Spring", "Angular 11", "JUnit", "Mockito","Typescript", "Maven", "Bootstrap", "PgAdmin", "Hibernate (ORM)", "HQL", "Git", "Liquibase", "Flyway", "SQL"], 
         "training": ["Javascript", "React", "Redux", "Node.js", "Java/JEE", "HTML5", "CSS3"], 
         "bonus": ["C", "Python", "Vue.js", "Heroku", "Sequelize (ORM)", "AWS"]
       }

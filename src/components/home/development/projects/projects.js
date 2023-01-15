@@ -20,59 +20,60 @@ const Projects = ({t}) => {
             <h2 className="tech-stack-title">{t('laboratory.tech-stack-text.title')}</h2>
 
             <div className="tech-stack-list">
-                <div className="tech-stack-item">
-                    <div className="stack-item"><span>{t('laboratory.tech-stack-text.everyday')}</span></div>
-                    {
-                        dailyStack.map((tech, index) =>   
-                            {
-                                const comma = index >= dailyStack.length-1 ? null : <span>, </span>;
-                                return (
-                                <React.Fragment key={tech}>
-                                    <span>
-                                        {tech}
-                                    </span>
-                                    {comma}
-                                </React.Fragment>
-                                )
-                            }
-                        )
-                    }
+                <div className="tech-stack-item" id="first-p">
+                    <div className="stack-headline"><span>{t('laboratory.tech-stack-text.everyday')}</span></div>
+                    <div className="stack-item-line">
+                        {
+                            dailyStack.map((tech, index) =>   
+                                {
+                                    return (
+                                    <React.Fragment key={tech}>
+                                            <div class="stack-item">
+                                                {tech}
+                                            </div>
+                                    </React.Fragment>
+                                    )
+                                }
+                            )
+                        }
+                    </div>
                 </div>
-                <div className="tech-stack-item">
-                    <div className="stack-item"><span>{t('laboratory.tech-stack-text.training')}</span></div>
-                    {
-                        trainingStack.map((tech, index) =>   
-                            {
-                                const comma = index >= trainingStack.length-1 ? null : <span>, </span>;
-                                return (
-                                <React.Fragment key={tech}>
-                                    <span>
-                                        {tech}
-                                    </span>
-                                    {comma}
-                                </React.Fragment>
-                                )
-                            }
-                        )
-                    }
+                <div className="tech-stack-item" id="second-p">
+                    <div className="stack-headline"><span>{t('laboratory.tech-stack-text.training')}</span></div>
+                    <div className="stack-item-line">
+                        {
+                            trainingStack.map((tech, index) =>   
+                                {
+                                    return (
+                                    <React.Fragment key={tech}>
+                                            <div class="stack-item">
+                                                {tech}
+                                            </div>
+                                    </React.Fragment>
+                                    )
+                                }
+                            )
+                        }
+                    </div>
                 </div>
-                <div className="tech-stack-item">
-                    <div className="stack-item"><span>{t('laboratory.tech-stack-text.bonus')}</span></div>
-                    {
-                        bonusStack.map((tech, index) =>   
-                            {
-                                const comma =  index >= bonusStack.length-1 ? null : <span>, </span>;
-                                return (
-                                <React.Fragment key={tech}>
-                                    <span>
-                                        {tech}
-                                    </span>
-                                    {comma}
-                                </React.Fragment>
-                                )
-                            }
-                        )
-                    }
+                <div className="tech-stack-item" id="third-p">
+                    <div className="stack-headline"><span>{t('laboratory.tech-stack-text.bonus')}</span></div>
+                    <div className="stack-item-line">
+                        {
+                            bonusStack.map((tech, index) =>   
+                                {
+                                    return (
+                                    <React.Fragment key={tech}>
+                                            <div class="stack-item">
+                                                {tech}
+                                            </div>
+                                    </React.Fragment>
+                                    )
+                                }
+                            )
+                        }
+                    </div>
+
                 </div>
             </div>
 

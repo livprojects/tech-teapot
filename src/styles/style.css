@@ -114,24 +114,27 @@ main {
         grid-row-start: fourth-row;
         grid-row-end: fifth-row;
         margin-bottom: 1rem;
+        justify-self: end;
       
     }
     
     .gridbox-center {
     
-        grid-column-start: second-column;
+        grid-column-start: first-column;
         grid-column-end: third-column;
         grid-row-start: fifth-row;
         grid-row-end: sixth-row;
         z-index: 10;    
+        margin-left: 3rem;
     }
 
     .gridbox-shortcuts-nav-icons {
         
-        grid-column-start: first-column;
-        grid-column-end: first-column;
-        grid-row-start: fifth-row;
+        grid-column-start: second-column;
+        grid-column-end: third-column;
+        grid-row-start: fourth-row;
         grid-row-end: fifth-row;      
+        justify-self: start;
        
     }
 
