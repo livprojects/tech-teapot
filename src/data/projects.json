@@ -82,7 +82,7 @@
             "frDescription": "Cliquez sur chaque tuile pour dessiner ce que vous voulez. Entièrement responsive en % et em, sans media queries.",
             "enDescription": "Click on the tiles to draw whatever you want, thanks to this tool coded in Javascript. Fully responsive with % and rem, no media queries.",
             "techStack": ["HTML5", "CSS3", "Javascript", "Git"],
-            "githubLinkgithubLink": "https://github.com/livprojects/draw-your-tiles",
+            "githubLink": "https://github.com/livprojects/draw-your-tiles",
             "deployedLink": "http://drawyourtiles.surge.sh/", 
             "status": "Complete",
             "screenLinks": ["https://i.imgur.com/vMOMwhZm.png"]
