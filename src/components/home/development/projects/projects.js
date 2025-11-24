@@ -10,7 +10,7 @@ const Projects = ({t}) => {
 
     const projects = data.projects;
     const dailyStack = stack['tech-stack'].everyday;
-    const trainingStack = stack['tech-stack'].training;
+    const usedStack = stack['tech-stack'].used;
     const bonusStack = stack['tech-stack'].bonus;
     const getCurrentLng = i18n.language || window.localStorage.i18nextLng || '';
 
@@ -38,10 +38,10 @@ const Projects = ({t}) => {
                     </div>
                 </div>
                 <div className="tech-stack-item">
-                    <div className="stack-headline"><span>{t('laboratory.tech-stack-text.training')}</span></div>
+                    <div className="stack-headline"><span>{t('laboratory.tech-stack-text.used')}</span></div>
                     <div className="stack-item-row">
                         {
-                            trainingStack.map((tech, index) =>   
+                            usedStack.map((tech, index) =>   
                                 {
                                     return (
                                     <React.Fragment key={tech}>

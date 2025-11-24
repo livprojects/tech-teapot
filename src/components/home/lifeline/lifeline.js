@@ -1,6 +1,5 @@
-import * as React from 'react';
 import './lifeline.css';
-import cv from '../../../data/CV_Janvier_2023.pdf';
+import cv from '../../../data/CV_Novembre_2025.pdf';
 
 const Lifeline = () => {
 
