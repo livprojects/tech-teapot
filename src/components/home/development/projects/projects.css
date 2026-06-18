@@ -83,10 +83,12 @@
     border-radius: 20px;
     border-left: 3px solid transparent;
     box-shadow: 3px 4px 7px 1px rgba(160, 228, 255, 0.2);
+    box-sizing: border-box;
 }
 
 .project-details--fulltime {
     border-left: 3px solid rgba(160, 228, 255, 0.87);
+    background-color: rgba(160, 228, 255, 0.04);
 }
 
 /* Card sections */
@@ -176,6 +178,20 @@
     background-color: rgba(96, 165, 250, 0.15);
     color: #60a5fa;
     border: 1px solid rgba(96, 165, 250, 0.4);
+}
+
+.badge--fulltime {
+    background-color: rgba(160, 228, 255, 0.12);
+    color: rgba(160, 228, 255, 0.87);
+    border: 1px solid rgba(160, 228, 255, 0.4);
+}
+
+.project-header-badges {
+    display: flex;
+    gap: 0.4rem;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    flex-shrink: 0;
 }
 
 @media (min-width: 1000px) {
