@@ -53,10 +53,6 @@ const Projects = ({t}) => {
                 </div>
             </div>
 
-            <div className="projects-key">
-                <span className="key-fulltime-dot"></span>
-                <span className="key-fulltime-label">{t('laboratory.project.fulltime-label')}</span>
-            </div>
 
             <div className="projects">
                 {projects.map((project) => {
