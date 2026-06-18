@@ -1,7 +1,7 @@
 {
     "tech-stack": {
-        "everyday": ["Javascript", "TypeScript", "React", "Next.js", "Node.js", "HTML5", "CSS3", "Tailwind CSS", "Bootstrap", "PHP", "Symfony", "Twig", "Git", "Jest"],
-        "used": ["Java", "PostgreSQL", "Spring Boot", "Angular 10+", "JUnit", "Mockito", "Maven", "Temporal", "SWR", "ArcXP"],
+        "everyday": ["Javascript", "TypeScript", "React", "Next.js", "Node.js", "HTML5", "CSS3", "Bootstrap", "PHP", "Symfony", "Twig", "Git", "Jest"],
+        "used": ["Java", "PostgreSQL", "Spring Boot", "Angular 10+", "JUnit", "Mockito", "Maven", "Temporal", "ArcXP"],
         "bonus": ["C", "Python", "Vue.js", "Heroku", "Sequelize (ORM)", "AWS"]
     }
 }
