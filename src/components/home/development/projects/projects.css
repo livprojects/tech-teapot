@@ -1,5 +1,5 @@
 .tech-stack-title {
-    font-family: 'Kompot Display Demo', 'Times New Roman', serif;
+    font-family: 'Playfair Display', 'Times New Roman', serif;
     font-size: 3rem;
     margin-bottom: 1rem;
 
@@ -54,7 +54,7 @@
     display: block;
     text-transform: uppercase;
     margin: 0.5rem auto 1rem 0;
-    font-family: 'Calps Sans', sans-serif;
+    font-family: 'Plus Jakarta Sans', sans-serif;
     color:  rgba(160,228,255,0.87);
     font-weight: 400;
 
