@@ -70,7 +70,12 @@ const Projects = ({t}) => {
                         <div className={`project-details${project.fulltime ? ' project-details--fulltime' : ''}`} key={project.enTitle}>
                             <div className="project-header">
                                 <span className="project-name">{title}</span>
-                                <span className={`badge ${badgeClass}`}>{statusLabel}</span>
+                                <div className="project-header-badges">
+                                    {project.fulltime && (
+                                        <span className="badge badge--fulltime">{t('laboratory.project.fulltime-label')}</span>
+                                    )}
+                                    <span className={`badge ${badgeClass}`}>{statusLabel}</span>
+                                </div>
                             </div>
                             <p className="project-description">{description}</p>
                             <div className="project-stack">
