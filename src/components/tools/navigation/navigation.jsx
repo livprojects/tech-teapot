@@ -13,7 +13,6 @@ const Navigation = ({t, activeComponent}) => {
     const upArchive = t('navigation.archives-title').toUpperCase();
     const upHome = t('navigation.home-title').toUpperCase();
     const upLifeLine = t('navigation.lifeline-title').toUpperCase();
-    const cvPath = t('navigation.cv-path');
 
 
 
@@ -23,7 +22,7 @@ const Navigation = ({t, activeComponent}) => {
                 <Link to="/" className={`thumbnail ${activeComponent ==='/' ? "active" : "inactive"}`}>{upHome}</Link>
                 <Link to="/programming" className={`thumbnail ${activeComponent ==='/programming' ? "active" : "inactive"}`}>{upLab}</Link>
                 <Link to="/journalism" className={`thumbnail ${activeComponent ==='/journalism' ? "active" : "inactive"}`}>{upArchive}</Link>
-                <a href={cvPath} target="_blank" rel="noopener noreferrer" className="thumbnail inactive">{upLifeLine}</a>
+                <Link to="/lifeline" className={`thumbnail ${activeComponent ==='/lifeline' ? "active" : "inactive"}`}>{upLifeLine}</Link>
             </div>
             <Shortcuts t={t}></Shortcuts>
 

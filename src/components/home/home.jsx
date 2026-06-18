@@ -15,7 +15,7 @@ import Welcome from './welcome/welcome';
 
 import Navigation from '../tools/navigation/navigation';
 import Toggle from '../tools/translation-toggle';
-import Lifeline from './lifeline/lifeline'
+import Lifeline from './lifeline/lifeline';
 import { withTranslation } from 'react-i18next';
 
 const Home = ({t}) => {
