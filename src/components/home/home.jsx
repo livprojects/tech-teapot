@@ -2,9 +2,9 @@ import {
   React
   } from 'react';
 import {
-    Switch,
+    Routes,
     Route,
-    useLocation 
+    useLocation
     } from 'react-router-dom';
 import '../../styles/reset.css';
 import '../../styles/style.css';
@@ -16,7 +16,7 @@ import Welcome from './welcome/welcome';
 import Navigation from '../tools/navigation/navigation';
 import Toggle from '../tools/translation-toggle';
 import Lifeline from './lifeline/lifeline'
-import { withNamespaces } from 'react-i18next';
+import { withTranslation } from 'react-i18next';
 
 const Home = ({t}) => {
 
@@ -41,20 +41,12 @@ activeComponent = location.pathname;
           <Navigation t={t} activeComponent={activeComponent}></Navigation>
         </div>
 
-        <Switch>
-          <Route exact path="/">
-            <Welcome t={t}/>
-          </Route>
-          <Route path="/programming">
-            <Programming t={t}></Programming>
-          </Route>
-          <Route path="/journalism">
-           <Journalism t={t}></Journalism>
-          </Route>   
-          <Route path="/lifeline">
-           <Lifeline></Lifeline>
-          </Route>       
-        </Switch>
+        <Routes>
+          <Route index element={<Welcome t={t}/>} />
+          <Route path="/programming" element={<Programming t={t}/>} />
+          <Route path="/journalism" element={<Journalism t={t}/>} />
+          <Route path="/lifeline" element={<Lifeline/>} />
+        </Routes>
       </div>
 
     </main>
@@ -62,4 +54,4 @@ activeComponent = location.pathname;
 
   )
 }
-export default withNamespaces()(Home);
+export default withTranslation()(Home);
