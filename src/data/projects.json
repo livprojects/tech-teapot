@@ -2,6 +2,34 @@
     "projects":
     [
         {
+            "enTitle": "L'Express — fullstack engineer",
+            "frTitle": "L'Express — développeuse fullstack",
+            "company": "L'Express",
+            "timeFrameFr": "Avril 2023 - Présent",
+            "timeFrameEn": "April 2023 - Present",
+            "frDescription": "Développement de fonctionnalités au service des journalistes, de la régie publicitaire, du marketing et des lecteurs sur le site de L'Express (~300 000 visites quotidiennes). Maintenance et développement de composants React (CMS ArcXP), optimisation du chargement des scripts, développement de services internes en PHP/Symfony/TypeScript/Twig/Temporal, et tableaux de bord internes pour le suivi des composants (250+) et de la qualité de code (erreurs réduites de 1 165 à moins de 100 en un an). Cadrage technique, études de faisabilité, revues de code, accompagnement de développeurs juniors, documentation technique et exploration du développement assisté par IA.",
+            "enDescription": "Feature development serving journalists, ad operations, marketing, and readers on L'Express's editorial website (~300,000 daily visits). Maintenance and development of React components (ArcXP CMS), script loading optimization, internal services in PHP/Symfony/TypeScript/Twig/Temporal, and internal dashboards for component inventory (250+) and code quality tracking (errors reduced from 1,165 to under 100 in one year). Technical scoping, feasibility studies, code reviews, mentoring of junior developers, technical documentation, and AI-assisted development exploration (features, reviews, architecture).",
+            "techStack": ["React", "PHP", "Symfony", "TypeScript", "Twig", "Temporal", "ArcXP", "JavaScript", "Git"],
+            "githubLink": "",
+            "deployedLink": "https://lexpress.fr",
+            "status": "Confidential",
+            "screenLinks": [""]
+        },
+        {
+            "enTitle": "CGI - Fullstack engineer",
+            "frTitle": "CGI - Développeuse fullstack",
+            "company": "CGI",
+            "timeFrameFr": "Février 2021 - Mars 2023",
+            "timeFrameEn": "February 2021 - March 2023",
+            "frDescription": "J'ai travaillé pendant deux ans sur un référentiel produits pour Les Mousquetaires (Artic), acteur majeur de la grande distribution française. Le logiciel analyse les données fournisseurs et détecte les incohérences avant le référencement en centrales de distribution. Le projet est constitué d'une interface front-end et de plusieurs briques algorithmiques en back-end, ainsi que d'un batch pour les traitements de gros volumes de données (tables de 6M+ lignes).",
+            "enDescription": "I worked for two years on a software analyzing and referencing products for a major French retail company (Les Mousquetaires). The project consists of a front-end interface, several algorithmic bricks and batch processes for large data volumes (6M+ row tables). It analyzes suppliers' data and raises alerts when quality standards are not met, before products can be sent and sold in stores.",
+            "techStack": ["Java 8", "Maven", "Spring Boot", "Hibernate", "Jersey", "JUnit", "Mockito", "Angular 10+", "Typescript", "Liquibase", "PostgreSQL", "HTML5", "CSS3", "Javascript", "Sonar", "SQL"],
+            "githubLink": "",
+            "deployedLink": "",
+            "status": "Confidential",
+            "screenLinks": [""]
+        },
+        {
             "enTitle": "La Vigie",
             "frTitle": "La Vigie",
             "company": "Perso",
@@ -12,21 +40,7 @@
             "techStack": ["Next.js", "React 19", "TypeScript", "Tailwind CSS", "SWR", "Git"],
             "githubLink": "",
             "deployedLink": "",
-            "status": "En cours",
-            "screenLinks": [""]
-        },
-        {
-            "enTitle": "L'Express — fullstack engineer",
-            "frTitle": "L'Express — ingénieure fullstack",
-            "company": "L'Express",
-            "timeFrameFr": "Avril 2023 - Présent",
-            "timeFrameEn": "April 2023 - Present",
-            "frDescription": "Développement de fonctionnalités au service des journalistes, de la régie publicitaire, du marketing et des lecteurs sur le site de L'Express (~300 000 visites quotidiennes). Maintenance et développement de composants React (CMS ArcXP), optimisation du chargement des scripts, développement de services internes en PHP/Symfony/TypeScript/Twig/Temporal, et tableaux de bord internes pour le suivi des composants (250+) et de la qualité de code (erreurs réduites de 1 165 à moins de 100 en un an). Cadrage technique, études de faisabilité, revues de code, accompagnement de développeurs juniors, documentation technique et exploration du développement assisté par IA.",
-            "enDescription": "Feature development serving journalists, ad operations, marketing, and readers on L'Express's editorial website (~300,000 daily visits). Maintenance and development of React components (ArcXP CMS), script loading optimization, internal services in PHP/Symfony/TypeScript/Twig/Temporal, and internal dashboards for component inventory (250+) and code quality tracking (errors reduced from 1,165 to under 100 in one year). Technical scoping, feasibility studies, code reviews, mentoring of junior developers, technical documentation, and AI-assisted development exploration (features, reviews, architecture).",
-            "techStack": ["React", "PHP", "Symfony", "TypeScript", "Twig", "Temporal", "ArcXP", "JavaScript", "Git"],
-            "githubLink": "",
-            "deployedLink": "https://lexpress.fr",
-            "status": "Confidential",
+            "status": "En cours - Confidential",
             "screenLinks": [""]
         },
         {
@@ -55,20 +69,6 @@
             "githubLink": "https://github.com/livprojects/tech-teapot",
             "deployedLink": "https://liv-audigane.com/",
             "status": "Complete",
-            "screenLinks": [""]
-        },
-        {
-            "enTitle": "Artic - Référentiel produits",
-            "frTitle": "Artic - Référentiel produits",
-            "company": "CGI",
-            "timeFrameFr": "Février 2021 - Mars 2023",
-            "timeFrameEn": "February 2021 - March 2023",
-            "frDescription": "J'ai travaillé pendant deux ans sur un référentiel produits pour Les Mousquetaires, acteur majeur de la grande distribution française. Le logiciel analyse les données fournisseurs et détecte les incohérences avant le référencement en centrales de distribution. Le projet est constitué d'une interface front-end et de plusieurs briques algorithmiques en back-end, ainsi que d'un batch pour les traitements de gros volumes de données (tables de 6M+ lignes).",
-            "enDescription": "I worked for two years on a software analyzing and referencing products for a major French retail company (Les Mousquetaires). The project consists of a front-end interface, several algorithmic bricks and batch processes for large data volumes (6M+ row tables). It analyzes suppliers' data and raises alerts when quality standards are not met, before products can be sent and sold in stores.",
-            "techStack": ["Java 8", "Maven", "Spring Boot", "Hibernate", "Jersey", "JUnit", "Mockito", "Angular 10+", "Typescript", "Liquibase", "PostgreSQL", "HTML5", "CSS3", "Javascript", "Sonar", "SQL"],
-            "githubLink": "",
-            "deployedLink": "",
-            "status": "Confidential",
             "screenLinks": [""]
         },
         {
