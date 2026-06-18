@@ -27,12 +27,17 @@
       "bonus": "J'ai déjà croisé:"
     },
     "project": {
-      "title": "Titre",
-      "description": "Description",
-      "techstack": "Stack technique",
-      "github": "Github",
-      "deployed": "En ligne",
-      "status": "Statut"
+      "stack": "Stack",
+      "github": "GitHub",
+      "live": "Voir le projet",
+      "fulltime-label": "Poste à plein temps",
+      "status": {
+        "Complete": "Terminé",
+        "Confidential": "Confidentiel",
+        "In progress": "En cours",
+        "On hold": "En pause",
+        "Idea": "Idée"
+      }
     }
   }
 }

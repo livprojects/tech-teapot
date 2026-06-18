@@ -24,12 +24,17 @@
       "bonus": "I would like to get better at:"
     },
     "project": {
-      "title": "Title",
-      "description": "Description",
-      "techstack": "Tech stack",
-      "github": "Github",
-      "deployed": "Deployed",
-      "status": "Status"
+      "stack": "Stack",
+      "github": "GitHub",
+      "live": "See it live",
+      "fulltime-label": "Full-time position",
+      "status": {
+        "Complete": "Complete",
+        "Confidential": "Confidential",
+        "In progress": "In progress",
+        "On hold": "On hold",
+        "Idea": "Idea"
+      }
     }
   }
 }

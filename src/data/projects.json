@@ -1,6 +1,5 @@
 {
-    "projects":
-    [
+    "projects": [
         {
             "enTitle": "L'Express — fullstack engineer",
             "frTitle": "L'Express — développeuse fullstack",
@@ -9,11 +8,24 @@
             "timeFrameEn": "April 2023 - Present",
             "frDescription": "Développement de fonctionnalités au service des journalistes, de la régie publicitaire, du marketing et des lecteurs sur le site de L'Express (~300 000 visites quotidiennes). Maintenance et développement de composants React (CMS ArcXP), optimisation du chargement des scripts, développement de services internes en PHP/Symfony/TypeScript/Twig/Temporal, et tableaux de bord internes pour le suivi des composants (250+) et de la qualité de code (erreurs réduites de 1 165 à moins de 100 en un an). Cadrage technique, études de faisabilité, revues de code, accompagnement de développeurs juniors, documentation technique et exploration du développement assisté par IA.",
             "enDescription": "Feature development serving journalists, ad operations, marketing, and readers on L'Express's editorial website (~300,000 daily visits). Maintenance and development of React components (ArcXP CMS), script loading optimization, internal services in PHP/Symfony/TypeScript/Twig/Temporal, and internal dashboards for component inventory (250+) and code quality tracking (errors reduced from 1,165 to under 100 in one year). Technical scoping, feasibility studies, code reviews, mentoring of junior developers, technical documentation, and AI-assisted development exploration (features, reviews, architecture).",
-            "techStack": ["React", "PHP", "Symfony", "TypeScript", "Twig", "Temporal", "ArcXP", "JavaScript", "Git"],
+            "techStack": [
+                "React",
+                "PHP",
+                "Symfony",
+                "TypeScript",
+                "Twig",
+                "Temporal",
+                "ArcXP",
+                "JavaScript",
+                "Git"
+            ],
             "githubLink": "",
             "deployedLink": "https://lexpress.fr",
             "status": "Confidential",
-            "screenLinks": [""]
+            "screenLinks": [
+                ""
+            ],
+            "fulltime": true
         },
         {
             "enTitle": "CGI - Fullstack engineer",
@@ -23,11 +35,31 @@
             "timeFrameEn": "February 2021 - March 2023",
             "frDescription": "J'ai travaillé pendant deux ans sur un référentiel produits pour Les Mousquetaires (Artic), acteur majeur de la grande distribution française. Le logiciel analyse les données fournisseurs et détecte les incohérences avant le référencement en centrales de distribution. Le projet est constitué d'une interface front-end et de plusieurs briques algorithmiques en back-end, ainsi que d'un batch pour les traitements de gros volumes de données (tables de 6M+ lignes).",
             "enDescription": "I worked for two years on a software analyzing and referencing products for a major French retail company (Les Mousquetaires). The project consists of a front-end interface, several algorithmic bricks and batch processes for large data volumes (6M+ row tables). It analyzes suppliers' data and raises alerts when quality standards are not met, before products can be sent and sold in stores.",
-            "techStack": ["Java 8", "Maven", "Spring Boot", "Hibernate", "Jersey", "JUnit", "Mockito", "Angular 10+", "Typescript", "Liquibase", "PostgreSQL", "HTML5", "CSS3", "Javascript", "Sonar", "SQL"],
+            "techStack": [
+                "Java 8",
+                "Maven",
+                "Spring Boot",
+                "Hibernate",
+                "Jersey",
+                "JUnit",
+                "Mockito",
+                "Angular 10+",
+                "Typescript",
+                "Liquibase",
+                "PostgreSQL",
+                "HTML5",
+                "CSS3",
+                "Javascript",
+                "Sonar",
+                "SQL"
+            ],
             "githubLink": "",
             "deployedLink": "",
             "status": "Confidential",
-            "screenLinks": [""]
+            "screenLinks": [
+                ""
+            ],
+            "fulltime": true
         },
         {
             "enTitle": "La Vigie",
@@ -37,11 +69,21 @@
             "timeFrameEn": "2025",
             "frDescription": "Un dashboard personnel temps réel regroupant des informations pratiques du quotidien : état du trafic TER, météo et perturbations sur les lignes de métro. Construit avec Next.js (App Router) et React 19, les données sont récupérées via des routes API Next.js et mises en cache côté client avec SWR.",
             "enDescription": "A personal real-time dashboard aggregating day-to-day practical information: TER train traffic, weather, and Paris metro disruptions. Built with Next.js (App Router) and React 19, data is fetched through Next.js API routes and cached client-side with SWR.",
-            "techStack": ["Next.js", "React 19", "TypeScript", "Tailwind CSS", "SWR", "Git"],
+            "techStack": [
+                "Next.js",
+                "React 19",
+                "TypeScript",
+                "Tailwind CSS",
+                "SWR",
+                "Git"
+            ],
             "githubLink": "",
             "deployedLink": "",
-            "status": "En cours - Confidential",
-            "screenLinks": [""]
+            "status": "Confidential",
+            "screenLinks": [
+                ""
+            ],
+            "fulltime": false
         },
         {
             "enTitle": "Movie picker",
@@ -51,11 +93,22 @@
             "timeFrameEn": "January 2023",
             "frDescription": "Ce test technique a été réalisé dans le cadre d'une candidature à une nouvelle mission pour un acteur majeur des médias français. Il a été codé en React 18. Il est déployé sur Netlify et plusieurs pipelines assurent qu'il n'y a pas de problème de build au moment de merger les pull requests.",
             "enDescription": "This project was a technical test to get into a new mission for a major French media company. It uses React 18 and its quality was proven by several pipelines on Github, checking tests and build before merging any pull request. It is deployed on Netlify.",
-            "techStack": ["HTML5", "CSS3", "Javascript", "React", "Axios", "React Testing Library", "Git"],
+            "techStack": [
+                "HTML5",
+                "CSS3",
+                "Javascript",
+                "React",
+                "Axios",
+                "React Testing Library",
+                "Git"
+            ],
             "githubLink": "https://github.com/livprojects/movie-picker",
             "deployedLink": "https://your-movie-picker.netlify.app/",
             "status": "Complete",
-            "screenLinks": [""]
+            "screenLinks": [
+                ""
+            ],
+            "fulltime": false
         },
         {
             "enTitle": "This portfolio",
@@ -65,11 +118,21 @@
             "timeFrameEn": "2021 - Present",
             "frDescription": "Ce portfolio présente à la fois mon parcours de journaliste et de développeuse full-stack. Il ne comporte qu'un front-end réalisé avec React et Vite. Les données (projets, articles) sont stockées dans un json. Un système de traduction français-anglais a été mis en place pour coller à mon parcours. Une pipeline Github n'autorise le déploiement que si le projet compile.",
             "enDescription": "This portfolio is a showcase for my path as both a journalist and a programmer. There is no back-end and the front-end was made with React and Vite. Data is currently stored in json files. I set up a French-English translation to match my career path. I also set up a pipeline on Github to allow deployment only if there is no compilation error.",
-            "techStack": ["HTML5", "CSS3", "Javascript", "React", "Vite", "Git"],
+            "techStack": [
+                "HTML5",
+                "CSS3",
+                "Javascript",
+                "React",
+                "Vite",
+                "Git"
+            ],
             "githubLink": "https://github.com/livprojects/tech-teapot",
             "deployedLink": "https://liv-audigane.com/",
             "status": "Complete",
-            "screenLinks": [""]
+            "screenLinks": [
+                ""
+            ],
+            "fulltime": false
         },
         {
             "enTitle": "Orizon",
@@ -79,11 +142,27 @@
             "timeFrameEn": "November 2020",
             "frDescription": "Projet de groupe : Orizon est une plateforme interactive à destination des enfants et adolescents entre 10 et 17 ans à propos de la conquête spatiale. Explorez le système solaire avec notre mascotte, Spoutnik !",
             "enDescription": "Group project: Orizon is an informative website for kids and teenagers aged between 10 and 17 years old, about the upcoming space race. Starting with the Moon, you can browse through all the missions already scheduled.",
-            "techStack": ["HTML5", "CSS3", "Javascript", "React", "Redux", "Three.js", "Node.js", "Express.js", "PostgreSQL", "Sequelize", "Git", "SQL"],
+            "techStack": [
+                "HTML5",
+                "CSS3",
+                "Javascript",
+                "React",
+                "Redux",
+                "Three.js",
+                "Node.js",
+                "Express.js",
+                "PostgreSQL",
+                "Sequelize",
+                "Git",
+                "SQL"
+            ],
             "githubLink": "https://github.com/livprojects/orizon-prod",
             "deployedLink": "https://o-rizon.herokuapp.com/#/",
             "status": "Complete",
-            "screenLinks": ["https://o-rizon.herokuapp.com/images/e6e878cd427800cda8c3af083ca90fe2.png"]
+            "screenLinks": [
+                "https://o-rizon.herokuapp.com/images/e6e878cd427800cda8c3af083ca90fe2.png"
+            ],
+            "fulltime": false
         },
         {
             "enTitle": "Fanfiction generator",
@@ -93,11 +172,18 @@
             "timeFrameEn": "January 2021",
             "frDescription": "Vous rêvez de retrouver votre adolescence ? Découvrez notre générateur de fanfictions, digne de la meilleure époque de la plateforme de blogs à l'étoile.",
             "enDescription": "A sarcastic tribute to a time of our lives when we thought we were great writers. Prerequisites to enjoy this: speaking French and having spent way too long reading fanfictions when you were a teenager. (Gift for a friend)",
-            "techStack": ["HTML5", "CSS3", "Javascript"],
+            "techStack": [
+                "HTML5",
+                "CSS3",
+                "Javascript"
+            ],
             "githubLink": "https://github.com/livprojects/fanfiction-generator",
             "deployedLink": "http://lachetescomz.surge.sh/",
             "status": "Complete",
-            "screenLinks": ["https://i.imgur.com/Tp5TFFEm.png"]
+            "screenLinks": [
+                "https://i.imgur.com/Tp5TFFEm.png"
+            ],
+            "fulltime": false
         },
         {
             "enTitle": "Draw your tiles",
@@ -107,11 +193,19 @@
             "timeFrameEn": "November 2020 - February 2021",
             "frDescription": "Cliquez sur chaque tuile pour dessiner ce que vous voulez. Entièrement responsive en % et em, sans media queries.",
             "enDescription": "Click on the tiles to draw whatever you want, thanks to this tool coded in Javascript. Fully responsive with % and rem, no media queries.",
-            "techStack": ["HTML5", "CSS3", "Javascript", "Git"],
+            "techStack": [
+                "HTML5",
+                "CSS3",
+                "Javascript",
+                "Git"
+            ],
             "githubLink": "https://github.com/livprojects/draw-your-tiles",
             "deployedLink": "http://drawyourtiles.surge.sh/",
             "status": "Complete",
-            "screenLinks": ["https://i.imgur.com/vMOMwhZm.png"]
+            "screenLinks": [
+                "https://i.imgur.com/vMOMwhZm.png"
+            ],
+            "fulltime": false
         },
         {
             "enTitle": "Orizon - Quiz",
@@ -121,11 +215,20 @@
             "timeFrameEn": "November 2020",
             "frDescription": "Version indépendante du quiz développé par mes soins pour la plateforme Orizon. A été adapté d'une version Redux à une approche React-only. Deux séries de questions sont disponibles actuellement.",
             "enDescription": "A quiz feature from the Orizon group project. I coded this feature myself and switched from a Redux environment (in the Orizon setting) to a slimmer React-only project, just for display purposes. Two quizzes are available for now.",
-            "techStack": ["HTML5", "CSS3", "Javascript", "React", "Git"],
+            "techStack": [
+                "HTML5",
+                "CSS3",
+                "Javascript",
+                "React",
+                "Git"
+            ],
             "githubLink": "https://github.com/livprojects/quiz-orizon",
             "deployedLink": "http://orizon-quiz.surge.sh/",
             "status": "Complete",
-            "screenLinks": ["https://i.imgur.com/0N3dFPam.png"]
+            "screenLinks": [
+                "https://i.imgur.com/0N3dFPam.png"
+            ],
+            "fulltime": false
         },
         {
             "enTitle": "Sketch book",
@@ -135,11 +238,17 @@
             "timeFrameEn": "Work in progress",
             "frDescription": "Une multitude de scripts et d'exercices de découverte de divers langages informatiques.",
             "enDescription": "A multitude of coding exercises in several languages, for the sole purpose of experimentation.",
-            "techStack": ["C", "Java"],
+            "techStack": [
+                "C",
+                "Java"
+            ],
             "githubLink": "https://github.com/livprojects/sketch-book",
             "deployedLink": "",
-            "status": "En cours",
-            "screenLinks": [""]
+            "status": "In progress",
+            "screenLinks": [
+                ""
+            ],
+            "fulltime": false
         },
         {
             "enTitle": "Ebooks",
@@ -149,11 +258,25 @@
             "timeFrameEn": "January 2021 - February 2021",
             "frDescription": "Ebooks est un projet étudiant à deux codé en Java (Spring) et JSP. C'est une plateforme permettant à l'utilisateur de suivre la progression des histoires qu'il a écrites. Elle n'existe qu'en version locale, via Github.",
             "enDescription": "Ebooks is a student project coded in Java (Spring). We were two to develop this platform enabling the user to keep track of the stories they wrote. It exists only as a local repository.",
-            "techStack": ["Java", "Spring WebMVC", "Spring DATA-JPA", "Hibernate", "JSP", "HTML5", "CSS3", "SQL", "Git"],
+            "techStack": [
+                "Java",
+                "Spring WebMVC",
+                "Spring DATA-JPA",
+                "Hibernate",
+                "JSP",
+                "HTML5",
+                "CSS3",
+                "SQL",
+                "Git"
+            ],
             "githubLink": "https://github.com/livprojects/ebooks",
             "deployedLink": "",
             "status": "Complete",
-            "screenLinks": ["", ""]
+            "screenLinks": [
+                "",
+                ""
+            ],
+            "fulltime": false
         },
         {
             "enTitle": "Magic Eight Ball",
@@ -163,11 +286,19 @@
             "timeFrameEn": "September 2020 - January 2021",
             "frDescription": "N'avez-vous jamais rêvé de connaître votre avenir ? Cette boule magique vous apporte les réponses à vos plus secrètes aspirations.",
             "enDescription": "Have you ever wanted to know what your fate will be? This is a tribute to magic eight balls.",
-            "techStack": ["HTML5", "CSS3", "Javascript"],
+            "techStack": [
+                "HTML5",
+                "CSS3",
+                "Javascript"
+            ],
             "githubLink": "https://github.com/livprojects/MagicEightBall",
             "deployedLink": "http://work-your-magic.surge.sh/",
             "status": "On hold",
-            "screenLinks": ["", ""]
+            "screenLinks": [
+                "",
+                ""
+            ],
+            "fulltime": false
         },
         {
             "enTitle": "Back to basics",
@@ -177,11 +308,19 @@
             "timeFrameEn": "March 2020 / September 2020",
             "frDescription": "A des années-lumière du Web 3.0, mon premier portfolio basique en HTML5 et CSS3. Utilise CSS Grid.",
             "enDescription": "A very basic portfolio in HTML and CSS, while a more ambitious portfolio is in the making. Uses CSS Grid.",
-            "techStack": ["HTML5", "CSS3", "Javascript", "Git"],
+            "techStack": [
+                "HTML5",
+                "CSS3",
+                "Javascript",
+                "Git"
+            ],
             "githubLink": "https://github.com/livprojects/livprojects.github.io",
             "deployedLink": "https://livprojects.github.io/",
             "status": "Complete",
-            "screenLinks": ["https://i.imgur.com/XR7jtnqm.png"]
+            "screenLinks": [
+                "https://i.imgur.com/XR7jtnqm.png"
+            ],
+            "fulltime": false
         },
         {
             "enTitle": "Warlock Holmes",
@@ -191,11 +330,23 @@
             "timeFrameEn": "October 2021 - November 2021",
             "frDescription": "Le Cluedo, mais avec des monstres. Un projet étudiant en Java(Spring)/Vue.js en friches.",
             "enDescription": "A monster-ized version of the classic game of Cluedo. A Java(Spring)/Vue.js student project on a forever pause.",
-            "techStack": ["HTML5", "CSS3", "Javascript", "Vue.js", "Java", "Spring", "Git", "SQL"],
+            "techStack": [
+                "HTML5",
+                "CSS3",
+                "Javascript",
+                "Vue.js",
+                "Java",
+                "Spring",
+                "Git",
+                "SQL"
+            ],
             "githubLink": "https://github.com/livprojects/warlock-holmes",
             "deployedLink": "",
             "status": "On hold",
-            "screenLinks": [""]
+            "screenLinks": [
+                ""
+            ],
+            "fulltime": false
         },
         {
             "enTitle": "Dinos on edge",
@@ -205,11 +356,16 @@
             "timeFrameEn": "May 2020",
             "frDescription": "Une expérimentation de jeu avec Scratch pour un exercice du cours CS50. Vous êtes un dino et vous devez éviter les météorites.",
             "enDescription": "In this game, you control a dinosaur with the arrows of your keyboard and your goal is to avoid meteors falling on Earth. It's part of a problem set designed by Harvard's CS50.",
-            "techStack": ["Scratch"],
+            "techStack": [
+                "Scratch"
+            ],
             "githubLink": "https://github.com/livprojects/DinosOnEdge",
             "deployedLink": "",
             "status": "Complete",
-            "screenLinks": [""]
+            "screenLinks": [
+                ""
+            ],
+            "fulltime": false
         }
     ]
 }
