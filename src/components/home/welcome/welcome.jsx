@@ -5,8 +5,8 @@ import './welcome.css';
 const Welcome = ({t}) => {
 
     const profile = {
-        age : '31',
-        experience: '4'
+        experience: '12',
+        techExperience: '5'
     }
 
     return (

@@ -1,14 +1,14 @@
 {
   "home": {
-    "baseline": "Bienvenue", 
-    "welcome-text": "Je m'appelle Liv Audigane, j'ai {{profile.age}} ans et ceci est mon portfolio. Je travaille comme développeuse full-stack depuis {{profile.experience}} ans, actuellement sur une stack technique React/PHP (Symfony), après avoir travaillé pendant deux ans sur Java 8 et Angular 10 (plus de détails sur mon CV/Linkedin). \n \n Je suis aussi diplômée d'un master en sciences politiques et journalisme, ainsi qu'une licence en langues étrangères appliquées (Anglais/Allemand/Russe) et J'ai travaillé dans des rédactions pendant six ans. \n \n Je suis passionnée par l'impact des technologies dans nos vies quotidiennes, par les nouveaux formats médias et la découverte et l'échange avec d'autres cultures. N'hésitez pas à m'envoyer un message, que ce soit pour une mission tech ou journalistique.",
+    "baseline": "Bienvenue",
+    "welcome-text": "Je suis Liv Audigane, développeuse full-stack et ancienne journaliste, forte de {{profile.experience}} ans d'expérience professionnelle dans des domaines variés. Avec {{profile.techExperience}} ans de développement au compteur, je travaille actuellement à L'Express sur l'ensemble de la stack (React, PHP, Symfony, TypeScript, Twig) pour un site qui reçoit 300 000 visites par jour, avec des responsabilités qui vont du développement au cadrage technique, en passant par les revues de code et la documentation. En parallèle, j'accompagne des développeurs juniors dans leur parcours. Avant ça, j'ai passé deux ans chez CGI sur un projet Java/Angular pour Les Mousquetaires, avec des contraintes de performance à grande échelle (bases de données avec tables de plus de 6 millions de lignes, notamment). \n \n Sept ans de journalisme spécialisé en sciences, société et technologie, dont près de trois ans à BFMTV.com, m'ont appris à mettre le contexte et l'impact au centre de mon travail. Une habitude que j'applique aussi au code. \n \n Diplômée d'un master en journalisme et sciences politiques et d'une licence en langues étrangères appliquées, je parle couramment anglais (C2) et ai étudié l'allemand, le russe et l'espagnol. J'ai eu la chance d'évoluer dans des contextes internationaux et je m'adapte facilement à de nouveaux environnements. En dehors du travail, je suis bénévole à la Croix-Rouge Française en secourisme et action sociale. \n \n Si vous cherchez quelqu'un capable de développer, documenter, accompagner et communiquer, je serais ravie d'échanger.",
     "laboratory-title": "Laboratoire",
-    "archives-title": "Archives", 
-    "home-title": "Accueil"    
+    "archives-title": "Archives",
+    "home-title": "Accueil"
   },
   "navigation": {
     "laboratory-title": "Programmation",
-    "archives-title": "Journalisme", 
+    "archives-title": "Journalisme",
     "home-title": "Accueil",
     "lifeline-title": "Parcours",
     "more-links": "Réseaux",
@@ -17,20 +17,20 @@
   },
   "archives": {
     "welcome": "Cette section est encore en travaux. Plus d'informations sur : "
-  }, 
+  },
   "laboratory": {
     "tech-stack-text": {
       "title": "Stack technique",
-      "everyday": "Ce que j'utilise au quotidien:", 
-      "used": "J'ai déjà travaillé avec:", 
+      "everyday": "Ce que j'utilise au quotidien:",
+      "used": "J'ai déjà travaillé avec:",
       "bonus": "J'ai déjà croisé:"
-    }, 
+    },
     "project": {
       "title": "Titre",
       "description": "Description",
       "techstack": "Stack technique",
       "github": "Github",
-      "deployed": "En ligne", 
+      "deployed": "En ligne",
       "status": "Statut"
     }
   }

@@ -1,35 +1,34 @@
-  {
-    "home": {
-      "baseline": "Welcome", 
-      "welcome-text": "My name is Liv Audigane and this is my portfolio. I am a {{profile.age}}-year-old odd mix of a full-stack developer and a journalist. \n \n I have {{profile.experience}} years of experience in full-stack developement and am currently working on a React/Symfony tech stack, after 2 years working with Java 8 and Angular 10 (more details on Linkedin/in my resume). \n \n I also have a master's degree in journalism and political science and a BA in foreign languages (English, German and Russian) and have worked as a reporter for six years. I am passionate about the impact of technology and the way it shapes our daily lives, new forms of storytelling and foreign cultures. Whether it is about technology or journalism, feel free to send a message."
-    }, 
-    "navigation": {
-      "laboratory-title": "Programming",
-      "archives-title": "Journalism",
-      "home-title": "Home", 
-      "lifeline-title": "Lifeline",
-      "more-links": "Socials", 
-      "linkedin": "Icon linking to Linkedin profile",
-      "github": "Icon linking to Github profile"
-
+{
+  "home": {
+    "baseline": "Welcome",
+    "welcome-text": "I'm Liv Audigane, a fullstack engineer and former journalist with {{profile.experience}} years of professional experience across different fields. With {{profile.techExperience}} years in software development, I'm currently at L'Express working across the full stack (React, PHP, Symfony, TypeScript, Twig) on an editorial website serving 300,000 daily readers, with responsibilities ranging from feature development to technical scoping and documentation. I also mentor junior developers. Before that, I spent two years at CGI on a Java/Angular project for Les Mousquetaires, dealing with large-scale performance constraints (including database tables of over 6 million rows). \n \n Seven years of journalism specialising in science, society and technology, including nearly three years at BFMTV.com, taught me to put context and impact at the centre of my work. A habit I bring to my code too. \n \n I hold a Master's in Journalism and Political Science and a BA in Applied Modern Languages. I'm fluent in English (C2) and have studied German, Russian, and Spanish. I've studied in international environments and adapt quickly to new contexts. Outside of work, I volunteer with the Croix-Rouge Française in first aid and social welfare. \n \n If you're looking for someone who can build, document, mentor, and communicate, I'd love to connect."
+  },
+  "navigation": {
+    "laboratory-title": "Programming",
+    "archives-title": "Journalism",
+    "home-title": "Home",
+    "lifeline-title": "Lifeline",
+    "more-links": "Socials",
+    "linkedin": "Icon linking to Linkedin profile",
+    "github": "Icon linking to Github profile"
+  },
+  "archives": {
+    "welcome": "This section is still a work in progress. You will find more information here : "
+  },
+  "laboratory": {
+    "tech-stack-text": {
+      "title": "Tech stack",
+      "everyday": "What I work with everyday:",
+      "training": "I've already worked with:",
+      "bonus": "I would like to get better at:"
     },
-    "archives": {
-      "welcome": "This section is still a work in progress. You will find more information here : "
-    }, 
-    "laboratory": {
-      "tech-stack-text": {
-        "title": "Tech stack",
-        "everyday": "What I work with everyday:", 
-        "training": "I've already worked with:", 
-        "bonus": "I would like to get better at:"
-      }, 
-      "project": {
-        "title": "Title",
-        "description": "Description",
-        "techstack": "Tech stack",
-        "github": "Github",
-        "deployed": "Deployed", 
-        "status": "Status"
-      }
+    "project": {
+      "title": "Title",
+      "description": "Description",
+      "techstack": "Tech stack",
+      "github": "Github",
+      "deployed": "Deployed",
+      "status": "Status"
     }
   }
+}
