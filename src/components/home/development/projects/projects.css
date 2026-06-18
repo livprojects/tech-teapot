@@ -69,19 +69,15 @@
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    justify-content:center;
+    justify-content: center;
     align-items: center;
+    gap: 0.5rem;
 }
 
 .stack-item {
-    padding: 0.2rem;
+    padding: 0.5rem 0.7rem;
     background-color: #7E77AA;
-    margin: 0.2rem 1rem 0 0;
-    border-radius: 10px;
-}
-
-.stack-item:hover{
-    background-color:  rgba(160,228,255,0.87);
+    border-radius: 18px;
 }
 
 
