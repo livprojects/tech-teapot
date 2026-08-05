@@ -2,6 +2,7 @@
     display: flex;
     width: 10rem;
     align-items: baseline;
+    margin-bottom: 3rem;
 }   
 
 .language-toggle span {
@@ -35,9 +36,8 @@ img {
     width: 120%;
 }
 
-@media (max-width:800px) {
-
+@media (min-width:800px) {
     .language-toggle {
-        margin-bottom: 3rem;
+        margin-bottom: 0;
     }
 }

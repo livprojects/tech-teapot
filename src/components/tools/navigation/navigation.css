@@ -1,100 +1,82 @@
 .gridbox-nav {
-    font-weight: bold;
     display: flex;
     flex-direction: row;
-    align-items: flex-end;
+    align-items: center;
+    justify-content: center;
 }
 
 .thumbnail {
     padding: 0.5rem;
 }
 
-
 .nav-links > a {
-    color: #A0E4FF;
+    color: #a0e4ff;
     text-decoration: none;
 }
 
-.nav-links > a:hover {
-    font-weight: 800;
+.nav-links a {
+    background-color: none;
+}
+
+.nav-links a:hover {
+    cursor: pointer;
 }
 
 .nav-links {
     display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-items: center;
     justify-content: space-around;
     font-family: 'Permanent Marker', 'Segoe Script', cursive;
     font-size: 1.5rem;
     font-weight: 400;
+    border-radius: 15px;
+    margin-right: 0.5rem;
 }
-
 
 .gridbox-shortcuts-nav ul li {
     margin-bottom: 0.6rem;
     text-align: center;
 }
 
+.flex-navigation {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 2rem;
+}
 
-@media (min-width:800px) {
+@media (min-width: 800px) {
+    .gridbox-nav {
+        align-items: flex-end;
+        justify-content: flex-start;
+    }
 
     .thumbnail {
         border-top-left-radius: 15px;
         border-top-right-radius: 25px;
         padding: 0.8rem 1.5rem;
-
     }
 
     .active {
-        background-color: #292B40;
+        background-color: #292b40;
     }
-    
+
     .inactive {
-        background-color: #7E77AA;
-    }
-
-
-    .flex-navigation {
-        display: flex;
-        justify-content: space-between;
-        margin-top: 2rem;
-        /* margin: 2rem auto;  */
-        
-    
-    }
-
-
-
-}
-
-
-@media (max-width:800px) {
-    .gridbox-nav {
-        align-items: center;
-        justify-content: center;
+        background-color: #7e77aa;
     }
 
     .nav-links {
-        flex-direction: column;
-        align-items: center;
-        justify-items: center;
-        border-radius: 15px;
-        margin-right: 0.5rem;
-    }
-
-    .nav-links a {
-        background-color: none;
-    }
-
-    .nav-links a:hover {
-        background-color: #7E77AA;
-        border-radius: 10px;
-
+        flex-direction: row;
+        align-items: normal;
+        justify-items: normal;
+        border-radius: 0;
+        margin-right: 0;
     }
 
     .flex-navigation {
-        justify-content: center;
-        margin-bottom: 2rem;
-    
+        justify-content: space-between;
+        margin-top: 2rem;
+        margin-bottom: 0;
     }
-    
-
 }

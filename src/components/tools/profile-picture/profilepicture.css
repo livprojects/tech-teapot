@@ -1,25 +1,22 @@
-
 .profilepic {
-
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     height: 8rem;
-
+    margin-bottom: 3rem;
 }
 
 img.profilepic-img {
-    width: 70%; 
+    width: 70%;
     -webkit-box-shadow: 13px 14px 8px -6px rgba(149, 228, 255, 1);
     -moz-box-shadow: 13px 14px 8px -6px rgba(149, 228, 255, 1);
     box-shadow: 13px 14px 8px -6px rgba(149, 228, 255, 1);
     margin-bottom: 2rem;
 }
 
-@media (max-width:800px) {
+@media (min-width: 800px) {
     .profilepic {
-        margin-bottom: 3rem;
+        margin-bottom: 0;
     }
 }
-

@@ -1,5 +1,5 @@
 .tech-stack-title {
-    font-family: 'Playfair Display', 'Times New Roman', serif;
+    font-family: Lato, Helvetica, sans-serif;
     font-size: 3rem;
     margin-bottom: 1rem;
 }
@@ -41,7 +41,7 @@
 
 .stack-item {
     padding: 0.5rem 0.7rem;
-    background-color: #7E77AA;
+    background-color: #7e77aa;
     border-radius: 18px;
 }
 

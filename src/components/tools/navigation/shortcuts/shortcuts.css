@@ -1,7 +1,7 @@
 .icons {
     display: flex;
+    gap: 0.5rem;
 }
-
 
 .gridbox-shortcuts-nav-links {
     display: none;
@@ -14,7 +14,6 @@
     cursor: pointer;
 }
 
-
 .img-wrapper {
     display: flex;
     justify-items: center;
@@ -22,7 +21,7 @@
 }
 
 .img-wrapper a {
-    transition: .3s ease-in-out;
+    transition: 0.3s ease-in-out;
     display: flex;
     margin: auto;
 }
@@ -30,13 +29,11 @@
 .img-wrapper a:hover {
     background-color: white;
     border-radius: 15px;
-} 
+    cursor: pointer;
+}
 
-
-
-@media (min-width:800px) {
+@media (min-width: 800px) {
     .icons {
         margin-left: 2rem;
     }
 }
-  
